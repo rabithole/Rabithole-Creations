@@ -1,0 +1,154 @@
+/* CSS Document */
+
+body {
+	background-image: url(../images/milk_cooler.jpg);
+	background-color: rgba(0,102,102,1);
+	background-repeat: no-repeat;
+	background-size: 99% 120%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#wrapper {
+	background-color: rgba(157,154,145,.7);
+	height: 1800px;
+	width: 1200px;
+	margin: 30px auto;
+	border-radius: 25px;
+	padding: 5px;
+	box-shadow: 5px 5px 25px #000;
+}
+
+h1 {
+	margin: 20px 150px;
+	font-size: 2.8em;
+	text-shadow: 3px 3px 4px #fff;
+	background-color: rgba(204,204,204,.6);
+	border-radius: 15px;
+	padding: 0 0 0 20px;
+	border: 1px solid #000;
+}
+
+
+article {
+	width: 32%;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 20px 40px;
+	overflow: auto;	
+	border: 3px solid #000;
+	float: left;
+	background-color: rgba(143, 179, 217, .4);
+	box-shadow: 5px 5px 25px #000;
+}
+
+p {
+	font-size: 1.2em;
+	width: 95%;
+	text-indent: 20px;
+}
+
+span {
+	margin-left: 20%;	
+}
+
+nav {
+	border: 2px solid #000;
+	float: left;
+	text-align: center;
+	background-color: rgba(255,255,255,.2);
+	padding: 7px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 40px #000;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	margin: 15px 0;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 3px #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: rgba(138,10,10,1);
+}
+
+figure{
+	float: ;
+	padding: 10px;
+	border: 5px solid #4C433C;
+	background-color: rgba(31, 35, 38, 1);
+	border-radius: 30px;
+	box-shadow: 10px 10px 25px #000;
+	position: ;
+	top: ;
+}
+
+img {
+	
+	margin: ;
+	background-color: rgba(157,154,145,1); 
+	padding: ;
+	border-radius: 15px;
+	float: ;
+	box-shadow: 0px 0px 25px 5px rgba(166,198,223,.8);
+}
+
+#goat {
+	float: right;
+	width: 400px;
+	padding: 20px;
+}
+
+#goats {
+	float: left;
+	width: 500px;
+	padding: 20px;
+}
+
+#cheese {
+	float: right;
+	clear: right;
+	width: 500px;
+	padding: 20px;
+}
+
+#undcon{
+	float: right;
+	width: 500px;
+	padding: 20px;
+}
+
+#fam {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 20px;
+	top: -350px;
+}
+
+table {
+	font-size: 1.2em;
+	border-collapse: collapse; 
+}
+
+th {
+	padding: 0 30px 0 0;
+	
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+}
+
+tr:nth-child(2) {
+	background-color: rgba(204,204,204,.3);
+}
+
+tr {
+	
+}

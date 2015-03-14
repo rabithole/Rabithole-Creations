@@ -1,0 +1,132 @@
+body {
+/*	background-image: url(../images/milking_machine.jpg); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1100px 1400px;
+	background-attachment: fixed; 
+	background-color: rgba(138,10,10,1);
+	color: rgba(204,204,204,1); 
+/*	border: 10px solid #000; */  
+	width: 98%;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	
+}
+
+#wrapper {
+/*	background-color: rgba(138,10,10,.3); */
+	background-image: url(../images/milking_machine.jpg);
+	padding: 20px;
+	background-size: 100%;
+	box-shadow: 10px 10px 50px #000;
+	border-radius: 25px 25px 0 0;
+}
+
+/* Fresh cheese article */
+
+article {
+	width: 600px;
+	margin: 0 0 10px 25%;
+	background-color: rgba(138,10,10,.9);
+/*	background-color: rgba(0,0,0,.7); */
+	padding: 0 10px 10px 10px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 35px #000;
+	color: rgba(204,204,204,1);
+}
+
+article p {
+	text-align: left;
+	text-indent: 25px;
+	font-size: ;
+}
+
+table {
+	margin: 0 0 10px 40px;
+}
+
+td, th {
+	padding: 0 35px 0 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.9em;
+	text-shadow: 3px 5px 2px #000000;
+	color: rgba(204,204,204,1);
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.5em;
+	text-shadow: 3px 3px 20px #000000;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2em;
+	text-shadow: 3px 3px 20px #000000;
+}
+
+p {
+	text-align: center;
+}
+/* Fresh cheese article */
+
+nav {
+	float: left;
+	margin: 200px 0 0 20px;
+	box-shadow: 7px 7px 30px #000;
+	padding: 10px 2px 10px 15px;
+	border-radius: 25px;
+	background-color: rgba(132, 14, 12, .6)
+}
+
+nav a {
+	display: block;
+	margin: 30px 25px 0 0;
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px #000;
+}
+
+nav a:hover {
+	font-size: 1.6em;
+	color: #fff;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	z-index: 3000;
+	background-color: rgba(153,153,153,1);
+	padding: 1px;
+	width: 998px;
+	border-top: 5px solid #fff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 5px 5px 30px #000;
+	margin: 0 0 35px 0;
+}
+
+footer div {
+	position: relative;
+	margin: 5px 0 0 270px;
+}
+
+footer a {
+	float: ;
+	position: ;
+	top: -30px;
+	right: 10px;
+	margin-right: 40px;
+	text-decoration: none;
+	color: rgba(138,10,10,1);
+}
+
+footer p {
+	color: rgba(0,0,0,1);
+	margin-left: ;
+	text-align: center;
+}

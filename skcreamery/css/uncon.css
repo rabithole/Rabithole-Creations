@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* Under Construction CSS */
+
+a.hov:hover {
+	position: relative;
+	padding: 5px;
+	border-radius: 10px;
+	content: url(../images/uncon_a_tag.jpg);
+	background-repeat: no-repeat;
+	
+}
+

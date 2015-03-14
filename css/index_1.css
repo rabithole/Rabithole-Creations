@@ -1,0 +1,47 @@
+/* CSS Document */
+
+body {
+	position: relative;
+	background-color: rgba(0,0,0,1);
+/*	background-image: url(../images/backgrounds/Neh.JPG);
+*/
+	background-color: #CCC;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	font-size: 100%;
+	overflow-x: hidden;
+	height: 1000px;
+	min-width: 900px;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 150px;
+	background-color: rgba(131,7,12,.8);
+	z-index: 1000;
+	
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	color: rgba(255,255,255,.8);
+	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .2em;
+}
+
+section {
+	position: relative;
+	top: ;
+	margin-top: 200px;
+	width: 100%;
+	background-color: rgba(255,255,255,1);
+	height: 300px;
+	z-index: 500;
+}
+
