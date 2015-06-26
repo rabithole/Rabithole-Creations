@@ -3,8 +3,6 @@
 body {
 	position: relative;
 	background-color: rgba(0,0,0,1);
-/*	background-image: url(../images/backgrounds/Neh.JPG);
-*/
 	background-color: #CCC;
 	background-size: 100%;
 	background-attachment: fixed;
@@ -12,10 +10,18 @@ body {
 	margin: 0;
 	font-size: 100%;
 	overflow-x: hidden;
-	height: 1000px;
+	height: 5000px;
 	min-width: 900px;
 }
+/* Lab 1 form */
 
+
+img {
+	position: fixed;
+	top: 50%;
+}
+
+/* HEADER */
 header {
 	position: fixed;
 	width: 100%;
@@ -23,17 +29,80 @@ header {
 	left: 0;
 	height: 150px;
 	background-color: rgba(131,7,12,.8);
-	z-index: 1000;
-	
+	z-index: 1000;	
 }
 
 h1 {
 	text-align: center;
-	font-size: 4em;
+	font-size: 4.5em;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
 	letter-spacing: .2em;
 }
+
+@media (max-width: 830px) {
+	h1 {
+		font-size: 3.5em;
+	}
+}
+
+@media (max-width: 715px) {
+	h1 {
+		margin-top: 10px;
+	}
+}
+/* HEADER */		
+
+/* Main Navigation */
+nav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 150px;
+	background-color: rgba(0,42,255,.7);
+	z-index: 750;
+	font-size: 1.1em;
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+}
+
+nav ul {
+	position: relative;
+	left: 20%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+nav li {
+	position: relative;
+	float: left;
+	margin-right: 5%;
+	height: 50px;
+}
+
+nav a {
+	color: #FFF;
+	list-style: none;
+	font-size: 1.3em;
+}
+
+.navover {
+	position: relative;
+	color: rgba(255,0,0,1);
+	font-size: 1.2em;
+	font-weight: ;
+	margin-right: 10px;
+	background-color: rgba(12,197,232,.6);
+	bottom: 20px;
+	padding: 15px 5px 0 5px;
+	height: 40px;
+	border-radius: 15px;
+}
+
+
+/* MAIN NAVIGATION */
 
 section {
 	position: relative;
@@ -41,7 +110,18 @@ section {
 	margin-top: 200px;
 	width: 100%;
 	background-color: rgba(255,255,255,1);
-	height: 300px;
+	height: 1000px;
 	z-index: 500;
+	background-color: #000;
 }
+
+#section_1 {
+	
+}
+
+#section_1 img {
+	margin: 50px 0 0 5%;
+}
+ 
+
 

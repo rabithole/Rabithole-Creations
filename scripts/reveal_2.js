@@ -7,15 +7,6 @@ window.onload = tab_selection;
 
 
 function tab_selection() {
-	/*
-	var photo_tab = document.getElementById("photo_tab");
-	var web_tab = document.getElementById("web_tab");
-	var skills_tab = document.getElementById("skills_tab");
-	var logo_tab = document.getElementById("logo_tab");
-	var learning_tab = document.getElementById("learning_tab");
-	var contact_tab = document.getElementById("contact_tab");
-	var current_tab = document.getElementById("current_tab");
-	*/
 	
 	var photo = document.getElementById("photo");
 	var skills = document.getElementById("skills");
