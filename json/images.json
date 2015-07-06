@@ -1,0 +1,5 @@
+ var slide = [{
+ 	"s1_background" : "images/main_page/sec_1_slide/s1_background.jpg",
+ 	"s2_background" : "images/main_page/sec_1_slide/s2_background.jpg"
+ 	}	 
+ ];

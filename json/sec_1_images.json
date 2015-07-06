@@ -1,0 +1,13 @@
+var request;
+/* This is for older browser compatability */
+if(window.XMLHttpRequest) {
+	request = new XMLHttpRequest();
+} else {
+	request = new ActiveXObect("Microsoft.XMLHTTP");
+}
+var section_1 = document.getElementById("section_1");
+
+request.open("GET", "images.json", true);
+request.onreadystatechange = function() {
+	section_1.css(images)
+}
