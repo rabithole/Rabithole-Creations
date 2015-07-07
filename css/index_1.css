@@ -33,7 +33,7 @@ header {
 
 h1 {
 	text-align: center;
-	font-size: ;
+	font-size: 4.5em;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
 	letter-spacing: .2em;
@@ -41,7 +41,7 @@ h1 {
 
 h5 {
 	text-align: center;
-	font-size: 4.5em;
+	font-size: ;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
 	letter-spacing: .2em;
