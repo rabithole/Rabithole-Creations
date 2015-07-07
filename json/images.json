@@ -1,5 +1,8 @@
- var slide = [{
- 	"s1_background" : "images/main_page/sec_1_slide/s1_background.jpg",
- 	"s2_background" : "images/main_page/sec_1_slide/s2_background.jpg"
- 	}	 
- ];
+ 	{
+ 		"full_name" : "Robert Kulp",
+ 		"title" 	: "Staff Author",
+ 		"links"     : [
+ 			{"blog"		: "http://iviewssource.com"},
+ 			{"facebook" : "http://facebook.com/iviewssource"}
+ 		]
+ 	}

@@ -33,6 +33,14 @@ header {
 
 h1 {
 	text-align: center;
+	font-size: ;
+	color: rgba(255,255,255,.8);
+	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .2em;
+}
+
+h5 {
+	text-align: center;
 	font-size: 4.5em;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
@@ -119,6 +127,7 @@ section {
 
 #section_1 {
 	height: 750px;
+	background-position: center-top;
 /*	background-image: url(../images/main_page/s1_background.jpg); */
 	background-repeat: no-repeat;
 	
