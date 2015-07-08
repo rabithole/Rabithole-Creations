@@ -16,17 +16,29 @@ request.onreadystatechange = function() {
 		console.log(request.responseText);
 		//console.log(request.slide.sec_1_slide.s1_background);
 		var img =  JSON.parse(request.responseText);
-		console.log(img[0]);
+		console.log(img);
 
-		for(i = 0; i < img.length; i++) {
-				var output = "";
-				output += section_1.style.backgroundImage = "url('" + img.url[i] + "')";
-				section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
-				section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
+		var output = "";
+		output += section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg ')";
+		section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
+		section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
 
+		var slideTimer;
 
+		function timer() {
+			slideTimer = setTimeout(imgSlider, 3000);
+		}
+		timer();
+
+		function imgSlider() {
+				for(i = 0; i < img.img.length; i++) {
+					var output = "";
+					output += section_1.style.backgroundImage = "url('" + img.img[i].url + "')";
+					section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
+					section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
+					//alert("Line 26");
+				}
 			}
-
 		//var slide_1_image = request.images.sec_1_slide.s1_background;
 		//section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg')";
 	}
