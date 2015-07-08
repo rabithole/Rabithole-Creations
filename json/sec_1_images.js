@@ -19,7 +19,7 @@ request.onreadystatechange = function() {
 		console.log(img);
 
 		var output = "";
-		output += section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg ')";
+		output += section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg')";
 		section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
 		section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
 
