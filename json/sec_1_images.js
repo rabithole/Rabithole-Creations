@@ -12,51 +12,52 @@ if(window.XMLHttpRequest) {
 request.open('GET', 'json/images.json', true);
 request.onreadystatechange = function() {
 	if((request.status === 200) && (request.readyState === 4)) {
-		console.log(request);
-		console.log(request.responseText);
+		//console.log(request);
+		//console.log(request.responseText);
 		//console.log(request.slide.sec_1_slide.s1_background);
 		var img =  JSON.parse(request.responseText);
 		console.log(img);
 
 		var output = "";
-		output += section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg')";
+		output += section_1.style.backgroundImage = "url('" + img.img[0].url + "')";
 		section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
 		section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
-
-		var slideTimer;
-
-		function timer() {
-			slideTimer = setTimeout(imgSlider, 3000);
-		}
-		timer();
-
-		function imgSlider() {
-				for(i = 0; i < img.img.length; i++) {
-					var output = "";
-					output += section_1.style.backgroundImage = "url('" + img.img[i].url + "')";
-					section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
-					section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
-					//alert("Line 26");
-				}
-			}
-		//var slide_1_image = request.images.sec_1_slide.s1_background;
-		//section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg')";
-	}
-};
-request.send();
-
-
-/*
-$(document).ready(function() {
-
-$.getJSON('http://www.rabithole.com/json/images.json', function(slide) {
-	console.log("Hello World!");
-
-	var output = "";
-	output += section_1.style.backgroundImage = "url('images/main_page/sec_1_slide/s1_background.jpg')";
-	section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'>";
-	}); 
-});	
-*/		
+		
+		var i = 0;
 
 		
+		function stepThrough() {		
+			setInterval(function() {
+				if (i < img.img.length) {
+			    	var output = "";
+					section_1.style.backgroundImage = "url(" + img.img[i].url + ")";
+					section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
+					section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
+					console.log("Here");
+					i += 1;
+				} else {
+					i = 0;
+				}
+			}, 4000);
+		} 
+		stepThrough();
+		
+		
+
+		/*
+		for(i = 0; i < img.img.length; i++) {
+			//setInterval(function(){loop()}, 3000);
+console.log(i); 
+
+			function loop() {
+		    	var output = "";
+				output += section_1.style.backgroundImage = "url('" + img.img[i].url + "')";
+				section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
+				section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
+				console.log("Here");
+			}*/
+		
+	}
+}
+request.send();
+	
