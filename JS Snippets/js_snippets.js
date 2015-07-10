@@ -34,6 +34,28 @@ url('images/main_page/sec_1_slide/s1_background.jpg')
 
 
 
+
+
+// Final working code for section one landing page slideshow. 
+function stepThrough() {		
+			setInterval(function() {
+				if (i < img.img.length) {
+			    	var output = "";
+					section_1.style.backgroundImage = "url(" + img.img[i].url + ")";
+					section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
+					section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
+					console.log("Here");
+					i += 1;
+				} else {
+					i = 0;
+				}
+			}, 5000);
+		} 
+		stepThrough();
+// Final working code for section one landing page slideshow.
+
+
+
 // Working Code with JSON 
 var request;
 /* This is for older browser compatability */

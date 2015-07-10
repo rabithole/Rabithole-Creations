@@ -30,7 +30,9 @@ request.onreadystatechange = function() {
 			setInterval(function() {
 				if (i < img.img.length) {
 			    	var output = "";
-					section_1.style.backgroundImage = "url(" + img.img[i].url + ")";
+					//section_1.style.backgroundImage = "url(" + img.img[i].url + ")";
+					section_1.style.cssText = 
+						"background-image:url(" + img.img[i].url + "); opacity: 0; transition-property: opacity; transition-duration: 2s;";
 					section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
 					section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
 					console.log("Here");
@@ -38,7 +40,7 @@ request.onreadystatechange = function() {
 				} else {
 					i = 0;
 				}
-			}, 4000);
+			}, 5000);
 		} 
 		stepThrough();
 		
