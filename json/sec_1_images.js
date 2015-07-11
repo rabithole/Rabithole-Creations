@@ -32,7 +32,7 @@ request.onreadystatechange = function() {
 			    	var output = "";
 					//section_1.style.backgroundImage = "url(" + img.img[i].url + ")";
 					section_1.style.cssText = 
-						"background-image:url(" + img.img[i].url + "); opacity: 0; transition-property: opacity; transition-duration: 2s;";
+						"background-image:url(" + img.img[i].url + "); /*opacity: 0; transition-property: opacity; transition-duration: 2s;*/";
 					section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
 					section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
 					console.log("Here");
