@@ -7,14 +7,11 @@ if(window.XMLHttpRequest) {
 } else {
 	request = new ActiveXObect("Microsoft.XMLHTTP");
 }
-//var section_1 = document.getElementById("section_1");
 
 request.open('GET', 'json/images.json', true);
 request.onreadystatechange = function() {
 	if((request.status === 200) && (request.readyState === 4)) {
-		//console.log(request);
-		//console.log(request.responseText);
-		//console.log(request.slide.sec_1_slide.s1_background);
+		
 		var img =  JSON.parse(request.responseText);
 		console.log(img);
 
@@ -31,8 +28,7 @@ request.onreadystatechange = function() {
 		section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h2>Here I Come</h2>";	
 			setInterval(function() {
 				if (i < img.img.length) {
-					section_1.style.cssText = "background-image: url(" + img.img[i].url + ");";
-					
+					section_1.style.cssText = "background-image: url(" + img.img[i].url + ");";			
 					console.log("Here");	
 					i += 1;	
 				} else {
@@ -41,22 +37,6 @@ request.onreadystatechange = function() {
 			}, 5000);
 		} 
 		stepThrough();
-		
-		
-
-		/*
-		for(i = 0; i < img.img.length; i++) {
-			//setInterval(function(){loop()}, 3000);
-console.log(i); 
-
-			function loop() {
-		    	var output = "";
-				output += section_1.style.backgroundImage = "url('" + img.img[i].url + "')";
-				section_1.innerHTML = output + "<img src='images/backgrounds/rabithole_logo.png'><br>";
-				section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h5>Here I Come</h5>";
-				console.log("Here");
-			}*/
-		
 	}
 }
 request.send();
