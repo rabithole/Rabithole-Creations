@@ -39,7 +39,7 @@ h1 {
 	letter-spacing: .2em;
 }
 
-h5 {
+h2 {
 	text-align: center;
 	font-size: ;
 	color: rgba(255,255,255,.8);
@@ -128,9 +128,8 @@ section {
 #section_1 {
 	height: 750px;
 	background-position: center-top;
-/*	background-image: url(../images/main_page/s1_background.jpg); */
+	background-image: url(../images/main_page/sec_1_slide/s1_background.jpg); 
 	background-repeat: no-repeat;
-	
 }
 
 #section_1 img {
@@ -141,5 +140,19 @@ section {
  
 #section_2 {
 	background-color: rgba(100, 100, 100, 1);
+}
+
+.fadeOut {
+	opacity: 0; 
+	transition-property: opacity; 
+	transition-duration: 2s; 
+	transition-delay: 4s;
+}
+
+.fadeIn {
+	opacity: 1; 
+	transition-property: opacity; 
+	transition-duration: 2s; 
+	transition-delay: ;	
 }
 
