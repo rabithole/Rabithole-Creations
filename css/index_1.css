@@ -146,13 +146,24 @@ section {
 	opacity: 0; 
 	transition-property: opacity; 
 	transition-duration: 2s; 
-	transition-delay: 4s;
+	transition-delay: 3.8s;
 }
 
 .fadeIn {
 	opacity: 1; 
 	transition-property: opacity; 
 	transition-duration: 2s; 
-	transition-delay: ;	
+		
+}
+
+.fadeOutTimer {
+	opacity: 1;
+	transition-property: opacity;
+	transtion-duration: 1s;
+
+}
+
+.none {
+	border: 3px solid #fff;
 }
 

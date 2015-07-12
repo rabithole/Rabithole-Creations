@@ -1,4 +1,3 @@
-
 var request;
 /* This is for older browser compatability */
 
@@ -40,4 +39,3 @@ request.onreadystatechange = function() {
 	}
 }
 request.send();
-	
