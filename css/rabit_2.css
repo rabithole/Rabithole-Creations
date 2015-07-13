@@ -131,3 +131,12 @@ section {
 	background-color: rgba(100, 100, 100, 1);
 	border-top: 2px solid #fff;
 }
+
+#section_2 img {
+	width: 400px;
+	padding: 10px;
+	background-color: rgba(245, 240, 240,.6);
+	border-radius: 15px;
+	margin: 0 5% 2% 5%;
+	border: 5px solid #000;
+}

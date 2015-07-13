@@ -7,7 +7,7 @@ if(window.XMLHttpRequest) {
 	request = new ActiveXObect("Microsoft.XMLHTTP");
 }
 
-request.open('GET', 'json/images.json', true);
+request.open('GET', 'json/section_1_images.json', true);
 request.onreadystatechange = function() {
 	if((request.status === 200) && (request.readyState === 4)) {
 		
