@@ -17,7 +17,7 @@ request.onreadystatechange = function() {
 
 		var i = 0;		
 		function stepThrough() {
-		section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h2>Here I Come</h2>";	
+		//section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h2>Here I Come</h2>";	
 		section_1.style.cssText = "background-image: url(" + img.img[i].url + ");";
 		i += 1;
 			setInterval(function() {

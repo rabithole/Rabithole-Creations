@@ -56,8 +56,8 @@ nav {
 	top: 150px;
 	z-index: 750;
 	font-size: 1.1em;
-	border-bottom: 3px solid #fff;
-	border-top: 3px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
 }
 
 nav ul {
@@ -104,6 +104,7 @@ section {
 	background-position: center top;
 	/*background-image: url(../images/main_page/sec_1_slide/s1_background.jpg);*/ 
 	background-repeat: no-repeat;
+	border-bottom: 2px solid #fff;
 }
 
 #photo_p {
@@ -128,4 +129,5 @@ section {
  
 #section_2 {
 	background-color: rgba(100, 100, 100, 1);
+	border-top: 2px solid #fff;
 }
