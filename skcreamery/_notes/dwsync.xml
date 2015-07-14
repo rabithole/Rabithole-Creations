@@ -19,4 +19,10 @@
 <file name="contact.html" server="ftp.rabithole.com/public_html/cas222/" local="130507363929374992" remote="130626553800000000" Dst="1" />
 <file name="index.html" server="ftp.rabithole.com/public_html/cas222/" local="130486666986945089" remote="130626553800000000" Dst="1" />
 <file name="tours.html" server="ftp.rabithole.com/public_html/cas222/" local="130507364173456997" remote="130626553800000000" Dst="1" />
+<file name="about_us.html" server="ftp.rabithole.com//public_html/testing/" local="130449334820000000" remote="130813789200000000" Dst="2" />
+<file name="buy.html" server="ftp.rabithole.com//public_html/testing/" local="130449334500000000" remote="130813789200000000" Dst="2" />
+<file name="cheese.html" server="ftp.rabithole.com//public_html/testing/" local="130507363741356760" remote="130813789200000000" Dst="2" />
+<file name="contact.html" server="ftp.rabithole.com//public_html/testing/" local="130507363929374992" remote="130813789200000000" Dst="2" />
+<file name="tours.html" server="ftp.rabithole.com//public_html/testing/" local="130507364173456997" remote="130813789200000000" Dst="2" />
+<file name="index.html" server="ftp.rabithole.com//public_html/testing/" local="130486666986945089" remote="130813789200000000" Dst="2" />
 </dwsync>

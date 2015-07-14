@@ -1,0 +1,25 @@
+
+#main_title {
+	position: relative; 
+	font-size: 3em;
+	width: ;
+	float: right;
+	margin: 1% 35% 0 0; 
+}
+
+nav ul {
+	left: 6%;
+}
+
+#logoImage {
+	width: 250px;
+}
+
+#section_2 {
+	background-position: top;
+	height: 800px;
+}
+
+#section_2 img {
+	width: 200px;
+}

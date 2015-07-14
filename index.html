@@ -5,17 +5,75 @@
 <title>Rabithole Creations</title>
 
 <link href="css/rabit_2.css" rel="stylesheet">
-<link media="screen and (max-device-width: 450px" href="css/mobile.css" rel="stylesheet">
-<link media="screen and (max-device-width: 1100px" href="css/pad.css" rel="stylesheet">
+<!--
+<link href="css/pad.css" rel="stylesheet"> 
+
+<link href="css.mobile.css" rel="stylesheet">
+
+<link media="screen and (max-width: 450px) " href="css/mobile.css" rel="stylesheet">
+<link href="css/lap_top.css" rel="stylesheet"> 
+<link href="css/responsive.css" rel="stylesheet">
+<link media="screen and (max-device-width: 450px" href="css/responsive"> -->
 
 <script src="jQuery/jquery-1.11.3.min.js"></script>
+<!-- <script src="scripts/mobile.js"></script> -->
+
+<script type="text/javascript">
+var x = screen.width;
+console.log(x);
+
+if(x < 440) {
+	var cssId = 'myCss';  // you could encode the css path itself to generate id..
+	if (!document.getElementById(cssId))
+	{
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+	    link.href = 'css/mobile.css';
+	    link.media = 'all';
+	    head.appendChild(link);
+	}
+}
+
+if(x < 1300) {
+	var cssId = 'myCss';  // you could encode the css path itself to generate id..
+	if (!document.getElementById(cssId))
+	{
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    //link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    //link.type = 'text/css';
+	    link.href = 'css/pad.css';
+	    //link.media = 'all';
+	    head.appendChild(link);
+	}  
+}
+
+if(x < 1641 && x > 1301 ) {
+	var cssId = 'myCss';  // you could encode the css path itself to generate id..
+	if (!document.getElementById(cssId))
+	{
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    //link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    //link.type = 'text/css';
+	    link.href = 'css/lap_top.css';
+	    //link.media = 'all';
+	    head.appendChild(link);
+	}  
+}
+</script>
 
 </head>
 <body>
 
 <header> 
 	<h1 id="main_title">Rabithole Creations</h1>
-		<img src='images/backgrounds/rabithole_logo.png' id="logoImage">
+	<img src='images/backgrounds/rabithole_logo.png' id="logoImage">
 </header>
 
 <nav>

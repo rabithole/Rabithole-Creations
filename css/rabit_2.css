@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	font-size: 100%;
 	overflow-x: hidden;
-	height: 5000px;
+	height: auto;
 	min-width: 900px;
 }
 
@@ -24,9 +24,16 @@ header {
 	z-index: 1000;	
 }
 
+#logoImage {
+	position: absolute;
+	width: 290px;
+	top: -6%;
+	left: 10%;
+}
+
 h1 {
 	text-align: center;
-	font-size: 4.5em;
+	font-size: ;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
 	letter-spacing: .2em;
@@ -35,6 +42,7 @@ h1 {
 #main_title {
 	text-align: right;
 	margin-right: 18%;
+	font-size: 4.5em;
 }
 
 h2 {
@@ -48,10 +56,12 @@ h2 {
 #cus_web_photo {
 	position: relative;
 	top: 15%;
+	font-size: 4.5em;
 }
 
 /* Photo h1 */
 #land_photo_sec {
+	font-size: 4.5em;
 	/*position: relative;
 	top: 60%;*/
 }
@@ -120,13 +130,6 @@ section {
 	border-bottom: 2px solid #fff;
 }
 
-#logoImage {
-	position: absolute;
-	width: 290px;
-	top: 0%;
-	left: 10%;
-}
-
 #photo_p {
 	color: #fff;
 	text-decoration: none;
@@ -160,3 +163,4 @@ section {
 	margin: 0 5% 2% 5%;
 	border: 5px solid #000;
 }
+
