@@ -1,4 +1,5 @@
-var request;
+(function() {
+	var request;
 /* This is for older browser compatability */
 
 if(window.XMLHttpRequest) {
@@ -34,3 +35,4 @@ request.onreadystatechange = function() {
 	}
 }
 request.send();
+})();
