@@ -1,18 +1,17 @@
 #main_title {
 	position: relative; 
-	font-size: 3em;
+	font-size: 3.9em;
 	width: ;
 	float: right;
-	margin: 5% 10% 0 0; 
+	margin: 2% 10% 0 0; 
 }
 
 nav ul {
-	left: 6%;
+	left: 15%;
 }
 
 #logoImage {
 	width: 250px;
-	left: 5%;
 }
 
 #section_2 {
@@ -21,6 +20,5 @@ nav ul {
 }
 
 #section_2 img {
-	width: 200px;
-	padding: 5px;
+	width: 300px;
 }
