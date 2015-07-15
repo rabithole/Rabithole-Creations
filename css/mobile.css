@@ -17,14 +17,14 @@ header {
 	top: 0;
 	left: 0;
 	height: 70px;
-	background-color: rgba(145,7,12,1);
+	
 	z-index: 1000;	
 }
 
 #logoImage {
 	position: absolute;
 	width: 140px;
-	top: -6%;
+	top: 16%;
 	left: 10%;
 }
 
@@ -38,10 +38,9 @@ h1 {
 
 #main_title {
 	position: relative;
-	font-size: 2em;
+	font-size: 2.5em;
 	left: 6%;
 	width: auto;
-	margin: ;
 }
 
 h2 {
@@ -109,8 +108,8 @@ nav a:hover {
 
 #section_1 {
 	position: relative;
-	height: 700px;
-	margin-top: 120px;
+	height: 590px;
+	margin-top: 0;
 	background-position: center top;
 	/*background-image: url(../images/main_page/sec_1_slide/s1_background.jpg);*/ 
 	background-repeat: no-repeat;
