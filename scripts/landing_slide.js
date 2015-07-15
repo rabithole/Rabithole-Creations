@@ -30,7 +30,7 @@ request.onreadystatechange = function() {
 				} else {
 					i = 0;
 					} 
-			}, 5000);
+			}, 6000);
 		} 
 		stepThrough();
 	}
