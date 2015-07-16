@@ -1,13 +1,24 @@
+/* Less than 1300px */
+body {
+	background-color: #000;
+}
 #main_title {
 	position: relative; 
 	font-size: 3em;
 	width: ;
 	float: right;
-	margin: 5% 10% 0 0; 
+	margin: 0 10% 0 0; 
 }
 
-nav ul {
-	left: 6%;
+nav {
+	top: 100px;
+	right: 20px;
+	
+}
+
+nav li {
+	width: 100px;
+	margin-bottom: 5px;
 }
 
 #logoImage {
@@ -16,7 +27,7 @@ nav ul {
 }
 
 #section_1 {
-	height: 480px;
+	height: 470px;
 }
 
 #section_2 {
@@ -27,4 +38,8 @@ nav ul {
 #section_2 img {
 	width: 200px;
 	padding: 5px;
+}
+
+#photo_p {
+	bottom: 0;
 }

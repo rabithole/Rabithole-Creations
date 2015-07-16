@@ -1,14 +1,18 @@
-
+/* Less than 1860 and greater than 1301 */
+body {
+	background-color: #000;
+}
 #main_title {
 	position: relative; 
 	font-size: 3.9em;
 	width: ;
 	float: right;
-	margin: 2% 10% 0 0; 
+	margin: 0 10% 0 0; 
 }
 
-nav ul {
-	left: 15%;
+nav {
+	top: 100px;
+	right: 20px;
 }
 
 #logoImage {
@@ -23,4 +27,8 @@ nav ul {
 #section_2 img {
 	width: 300px;
 	margin-right: 1%;
+}
+
+#photo_p {
+	bottom: 0;
 }
