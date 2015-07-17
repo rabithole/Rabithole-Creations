@@ -1,34 +1,223 @@
 /* Less than 1860 and greater than 1301 */
+
 body {
-	background-color: #000;
+	position: relative;
+	background-color: rgba(0, 0, 0, 1); 
+	background-image: url(../images/backgrounds/fort_stevens.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	font-size: 100%;
+	overflow-x: hidden;
+	height: auto;
+	min-width: 900px;
 }
+
+/* HEADER */
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 80px;
+	background-color: rgba(145,7,12,.7);
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: linear-gradient(to bottom, rgba(145, 7, 12, .2), rgba(145, 7, 12, 1));
+	z-index: 1000;	
+	border-bottom: 1px solid rgb(229, 187, 184);
+}
+
+#logoImage {
+	position: absolute;
+	width: 250px;
+	padding: 70px 0 0 0;
+	top: 0;
+	left: 10%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px; 
+	background-color: #000;
+	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+	background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+	background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .3),rgba(0, 0, 0, 1)); 
+	border-right: 1px solid rgb(145, 7, 12);
+	border-bottom: 3px solid rgb(145, 7, 12);
+}
+
+h1 {
+	text-align: center;
+	font-size: ;
+	color: rgba(255,255,255,.8);
+	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .2em;
+}
+
 #main_title {
+	text-align: right;
 	position: relative; 
 	font-size: 3.9em;
-	width: ;
 	float: right;
 	margin: 0 10% 0 0; 
 }
 
-nav {
-	top: 100px;
-	right: 20px;
+h2 {
+	text-align: center;
+	font-size: ;
+	color: rgba(255,255,255,.8);
+	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .2em;
 }
 
-#logoImage {
-	width: 250px;
+#cus_web_h1 {
+	position: relative;
+	top: 23%;
+	left: auto;
+	font-size: 4.5em;
+}
+
+/* Photo h1 */
+#land_photo_h1 {
+	font-size: 4.5em;
+	/*position: relative;
+	top: 60%;*/
+}
+
+/* HEADER */		
+
+/* Main Navigation */
+nav {
+	position: fixed;
+	right: 20px;
+	top: 100px;
+	float: right;
+	z-index: 10000;
+}
+
+nav li {
+	width: 150px;
+	background-color: rgba(0, 42, 255, 1);
+/*	background: -webkit-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1));
+	background: -o-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1));
+	background: -moz-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1)); */
+	background: linear-gradient(to bottom, rgba(156, 60, 255, 1), rgba(70, 70, 200, 1));
+	margin-bottom: 10px;
+	height: 25px;
+	padding:  5px 50px 0 10px;
+	list-style: none;
+	text-align: right;
+	border-radius: 5px; 
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	position: relative;	
+}
+
+nav li:hover {
+	position: relative;
+	right: 50px;
+	font-size: 1.1em;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 5px;
+} 
+
+/*
+nav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 150px;
+	z-index: 750;
+	font-size: 1.1em;
+	/*border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff; 
+}
+
+nav ul {
+	position: relative;
+	left: 20%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav li {
+	position: relative;
+	float: left;
+	margin-right: 5%;
+	height: 50px;
+}
+
+nav a {
+	position: relative;
+	bottom: 5px;
+	color: rgb(255, 255, 255);
+	list-style: none;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+*/
+
+/* MAIN NAVIGATION */
+
+section {
+	position: relative;
+	top: ;
+	margin-top: 203px;
+	width: 100%;
+/*	background-color: rgba(255,255,255,1); */
+	height: 1000px;
+	z-index: 500;
+}
+
+#section_1 {
+	height: 750px;
+	background-position: center top;
+	/*background-image: url(../images/main_page/sec_1_slide/s1_background.jpg);*/ 
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #fff;
+}
+
+#photo_p {
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#photo_p:hover {
+	color: rgb(255,20,30);
 }
 
 #section_2 {
+	background-color: rgba(100, 100, 100, 1);
+	background-image: url(../images/backgrounds/under_bridge.jpg); 
+	background-size: 100%;
 	background-position: top;
+	background-repeat: no-repeat;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin-top: 0;
+	z-index: 1100;
 	height: 800px;
 }
 
 #section_2 img {
 	width: 300px;
-	margin-right: 1%;
+	padding: 10px;
+	background-color: rgba(245, 240, 240,1);
+	border-radius: 15px;
+	margin: 0 1% 2% 5%;
+	border: 5px solid #000;
 }
 
-#photo_p {
-	bottom: 0;
-}
+
