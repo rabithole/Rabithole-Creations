@@ -1,5 +1,5 @@
-document.getElementsByTagName("body").addEventListener("scroll", navScroll);
+window.addEventListener("scroll", navScroll);
 
 function navScroll() {
-	
+	console.log("Page is scrolling")
 }
