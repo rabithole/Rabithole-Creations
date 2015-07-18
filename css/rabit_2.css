@@ -136,7 +136,7 @@ section {
 }
 
 .navScroll {
-	
+	display: none;
 }
 
 #section_1 {
@@ -160,7 +160,7 @@ section {
 	color: rgb(255,20,30);
 }
 
-#section_1-5 {
+#section_1_5 {
 	height: 400px;
 	background-color: #aaa;
 	z-index: 2000;
