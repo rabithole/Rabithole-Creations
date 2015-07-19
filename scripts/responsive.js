@@ -1,6 +1,6 @@
 (function() {
 	var x = screen.width;
-console.log(x);
+	console.log(x);
 
 // Mobile phones
 if(x < 440) {
