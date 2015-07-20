@@ -17,3 +17,18 @@ nav li {
 nav a {
 	font-size: .3em;
 }
+ /*
+width: 150px;
+	background-color: rgba(0, 42, 255, 1);
+/*	background: -webkit-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1));
+	background: -o-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1));
+	background: -moz-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1)); */
+	/*
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
+	margin-bottom: 10px;
+	height: 25px;
+	padding:  5px 50px 0 10px;
+	list-style: none;
+	text-align: right;
+	border-radius: 5px;
+	*/
