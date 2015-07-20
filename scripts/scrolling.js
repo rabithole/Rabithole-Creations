@@ -12,7 +12,7 @@ $(window).scroll(function(event) {
 			current.className = "logoCollapse";
 			}
 			if(scroll < 90) {
-			current.className = "expandLogo";
+			current.className = "logo";
 			}
 		
 	})();
