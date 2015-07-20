@@ -1,0 +1,168 @@
+/* Navigation scroll landing page */
+.scrollNav {
+	margin-bottom: 2px;
+	border-radius: 5px;
+	list-style: none;
+	background-color: rgba(0, 0, 0, 1);
+	height: 2px;
+	width: 1px;
+	font-size: 0em;
+	animation-name: navScroll;
+	animation-duration: 1s;
+}
+
+@keyframes navScroll {
+	from {
+	margin-bottom: 10px;
+	border-radius: 5px;
+	list-style: none;
+	background-color: rgba(0, 0, 0, 1);
+	height: 25px;
+	width: 150px;
+	font-size: ;
+	}
+	to {
+	margin-bottom: 2px;
+	border-radius: 5px;
+	list-style: none;
+	background-color: rgba(0, 0, 0, 1);
+	height: 2px;
+	width: 1px;
+	font-size: 0em;
+	}
+}
+
+.zeroScroll {
+	margin-bottom: 10px;
+	border-radius: 5px;
+	list-style: none;
+	background-color: rgba(0, 0, 0, 1);
+	height: 25px;
+	width: 150px;
+	font-size: ;
+	animation-name: zeroScroll;
+	animation-duration: 1s;
+}
+
+@keyframes zeroScroll {
+	from {
+	margin-bottom: 2px;
+	border-radius: 5px;
+	list-style: none;
+	background-color: rgba(0, 0, 0, 1);
+	height: 2px;
+	width: 1px;
+	font-size: 0em;
+	}
+	to {
+	margin-bottom: 10px;
+	border-radius: 5px;
+	list-style: none;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
+	height: 25px;
+	width: 150px;
+	font-size: ;
+	}
+}
+	/* Header collapse on scroll */
+.headerCollapse {
+	position: fixed;
+	width: 100%;
+	font-size: .3em;
+	top: 0;
+	left: 0;
+	height: 30px;
+	background-color: rgba(145,7,12,.7);
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .2) 2%, rgba(145, 7, 12, 1));
+	z-index: 1000;	
+	border-bottom: 1px solid rgb(229, 187, 184);
+	animation-name: headerCol;
+	animation-duration: 1s;
+}
+
+@keyframes headerCol {
+	from {
+		position: fixed;
+		width: 100%;
+		font-size: 1em;
+		top: 0;
+		left: 0;
+		height: 80px;
+		z-index: 1000;	
+		border-bottom: 1px solid rgb(229, 187, 184);
+	}
+	to {
+		height: 30px;
+		font-size: .3em;
+	}
+}
+
+.headerExpand {
+	height: 80px;
+	font-size: 1em;
+	animation-name: headerExp;
+	animation-duration: 1s;
+}
+
+@keyframes headerExp {
+	from {
+		height: 30px;
+		font-size: .3em;
+	}
+	to {
+		height: 80px;
+		font-size: 1em;
+	}
+}
+
+/* Logo collapse on scroll */
+.logoCollapse {
+	position: absolute;
+	width: 100px;
+	padding: 0 0 0 0;
+	top: 0;
+	left: 10%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px; 
+	background-color: #000;
+	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+	background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+	background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .3),rgba(0, 0, 0, 1)); 
+	border-right: 1px solid rgb(145, 7, 12);
+	border-bottom: 3px solid rgb(145, 7, 12);
+	animation-name: logoCol;
+	animation-duration: 1s;
+}
+
+@keyframes logoCol {
+	from {
+		width: 250px;
+		padding-top: 70px;
+	}
+	to {
+		width: 100px;
+		padding-top: 0;
+	}
+}
+
+.logo {
+	width: 250px;
+	padding-top: 70px;
+	animation-name: logoEx;
+	animation-duration: 1s;
+}
+
+@keyframes logoEx {
+	from {
+		width: 100px;
+		padding-top: 0;
+	}
+	to {
+		width: 250px;
+		padding-top: 70px;
+	}
+}
