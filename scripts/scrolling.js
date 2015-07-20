@@ -1,30 +1,49 @@
-window.addEventListener("scroll", navScroll);
-window.onload = zeroScroll;
-//var navClick = document.getElementById("clickNav");
-//navClick.onclick = zeroScroll();
+//window.addEventListener("scroll", navScroll);
+//window.onload = selectStyle;
 
-function navScroll() {
-	var navChange = document.getElementById("nav");
+$(window).scroll(function(event) {
+	var scroll = $(window).scrollTop();
+	console.log(scroll);
+	var dev = document.getElementsByTagName("li");
 
-	console.log("Page is scrolling")
+	for (var i = 0; i<dev.length; i++){
+		var current = dev[i]; 
+		console.log(current);
 
-	var cssId = 'myCss';  // you could encode the css path itself to generate id..
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.id   = cssId;
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'css/scroll.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
+		if(scroll > 10) {
+		current.className = "scrollNav";
+		}
+		if(scroll < 9) {
+		current.className = "";
+		}
+	}
 
-function zeroScroll() {
-	console.log("Page is scrolling")
+	
+	
+});
 
-	var cssId = 'myCss';  // you could encode the css path itself to generate id..
-	if (!document.getElementById(cssId))
-	{
+/*
+function selectStyle(event, scroll) {
+	function navScroll() {
+		console.log("Page is scrolling");
+
+		var cssId = 'myCss';  // you could encode the css path itself to generate id..
+		
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+	    link.href = 'css/scroll.css';
+	    link.media = 'all';
+	    head.appendChild(link);
+	}
+
+	function zeroScroll() {
+		console.log("Zero scroll");
+
+		var cssId = 'myCss';  // you could encode the css path itself to generate id..
+		
 	    var head  = document.getElementsByTagName('head')[0];
 	    var link  = document.createElement('link');
 	    link.id   = cssId;
@@ -36,4 +55,32 @@ function zeroScroll() {
 	}
 }
 
+if(scroll < 9) {
+		console.log("Page is scrolling");
 
+		var cssId = 'myCss';  // you could encode the css path itself to generate id..
+		
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+	    link.href = 'css/nav.css';
+	    link.media = 'all';
+	    head.appendChild(link);
+	}
+	if(scroll > 10) {
+		console.log("Zero scroll");
+
+		var cssId = 'myCss';  // you could encode the css path itself to generate id..
+		
+	    var head  = document.getElementsByTagName('head')[0];
+	    var link  = document.createElement('link');
+	    link.id   = cssId;
+	    link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+	    link.href = 'css/scroll.css';
+	    link.media = 'all';
+	    head.appendChild(link);
+	} 
+*/
