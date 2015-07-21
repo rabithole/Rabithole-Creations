@@ -1,0 +1,840 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"createSelection"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"depar",
+				"department"
+			],
+			[
+				"depart",
+				"departmentCombo"
+			],
+			[
+				"ment",
+				"mentorDataService"
+			],
+			[
+				"departm",
+				"departments"
+			],
+			[
+				"depa",
+				"departments"
+			],
+			[
+				"department",
+				"departmentTableModule"
+			],
+			[
+				"setPr",
+				"setProgressTip"
+			],
+			[
+				"progress",
+				"progressbar"
+			],
+			[
+				"u",
+				"upload"
+			],
+			[
+				"up",
+				"uploadAll"
+			],
+			[
+				"progre",
+				"progressDialog"
+			],
+			[
+				"uplo",
+				"uploadDialog"
+			],
+			[
+				"upload",
+				"upload_button"
+			],
+			[
+				"close",
+				"closeProgress"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"type",
+				"type"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index-1.html",
+			"settings":
+			{
+				"buffer_size": 23717,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/reveal_2.js",
+			"settings":
+			{
+				"buffer_size": 8793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "JS Snippets/js_snippets.js",
+			"settings":
+			{
+				"buffer_size": 4443,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/JS xampp/Lab2.1/RK_lab3/RK_lab3/scripts/json_v3.js",
+			"settings":
+			{
+				"buffer_size": 5106,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/JS xampp/wcag/wcag.js",
+			"settings":
+			{
+				"buffer_size": 5390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/JS xampp/rte/rte2.js",
+			"settings":
+			{
+				"buffer_size": 3784,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/scrolling.js",
+			"settings":
+			{
+				"buffer_size": 885,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/responsive.js",
+			"settings":
+			{
+				"buffer_size": 1901,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/rabit_2.css",
+			"settings":
+			{
+				"buffer_size": 3112,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts"
+	],
+	"file_history":
+	[
+		"/E/JS xampp/wcag/bookmarklet.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/responsive.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/jQuery/jquery-1.11.3.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit_2.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/json/sec_1_images.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/json/sec_1_images.json",
+		"/E/JS xampp/Lab2/scripts/json.js",
+		"/E/JS xampp/Lab2.1/scripts/json_v3.js",
+		"/E/JS xampp/dict/bookmarklet.js",
+		"/E/JS xampp/rte/rte.js",
+		"/E/JS xampp/rte/tools.js",
+		"/E/JS xampp/Lab 6/practice.js",
+		"/C/Users/Robert Kulp/xampp_1/htdocs/RABITHOLE/json/images.json",
+		"/C/Users/Robert Kulp/xampp/htdocs/Lab2.1/scripts/json_v3.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/Lab2.1/index.html",
+		"/C/Users/Robert Kulp/xampp/htdocs/Lab 2 Follow/index_1.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/css/index_1.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/scripts/ajax_script.js",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/css/slideshow.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/index.1.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/css/rabit.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/index.html",
+		"/C/xampp/htdocs/images/images.sql",
+		"/C/xampp/htdocs/mentors/mentors.sql",
+		"/C/Users/Robert Kulp/Documents/SCHOOL/Spring 2015/JavaScript/Lab 4/Lab 4 Walkthrough Tutorial, Part I.html/Lesson 4/Lab 4 Walkthrough Tutorial, Part I.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/index.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/slideshow.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/scripts/jquery.js",
+		"/C/xampp/htdocs/Lab 6/test.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/footer.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/written_directions.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/reserve.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/reserve_contact.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/zzq2nu0k.t5s.txt",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/written_directions.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/rates.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/.metadata/version.ini",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/rates_footer.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/rules.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/local.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/hist_photo.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/hist_photo.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/vista_history.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/events.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/rules.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/vista_photos.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/tent.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/rv.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/park_map.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/other_photos.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/local_attractions.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/google_map.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/yurt.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/events.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/history.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/yurt.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/tent.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/rv.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/rates.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/test/index.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/nav_bar.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/xhxi3ekg.o05.txt",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/1gqxqzjw.ptw.txt",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/xavymj01.osm.txt",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/ukusurmk.bcf.txt",
+		"/C/Users/Robert Kulp/Desktop/web_projects/test/angular/personalController.js",
+		"/C/Users/Robert Kulp/Desktop/web_projects/test/test-1.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/test/test.html",
+		"/C/xampp/htdocs/angular_mentors/departmentComboModule.js",
+		"/C/xampp/htdocs/angular_mentors/department-table.html",
+		"/C/xampp/htdocs/angular_mentors/mentorBlocksModule.js",
+		"/C/xampp/htdocs/angular_mentors/mentors.php",
+		"/C/xampp/htdocs/angular_mentors/mentors.sql",
+		"/C/xampp/htdocs/angular_mentors/filtered-mentor-blocks.html",
+		"/C/xampp/htdocs/angular_mentors/mentorToolModule.js",
+		"/C/xampp/htdocs/angular_mentors/akym.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/test/angular/angular.js",
+		"/C/Users/Robert Kulp/Desktop/web_projects/test/personalController.js",
+		"/C/xampp/htdocs/angular_mentors/department-combo.html",
+		"/C/xampp/htdocs/angular_mentors/combo.css",
+		"/C/xampp/htdocs/angular_mentors/filteredMentorBlocksModule.js",
+		"/C/xampp/htdocs/angular_mentors/departmentTableModule.js",
+		"/C/xampp/htdocs/angular_mentors/jquery-ui/index.html",
+		"/C/xampp/htdocs/angular_mentors/jquery-ui.custom/jquery-ui-1.11.4.custom/index.html",
+		"/C/xampp/htdocs/angular_mentors/original.html",
+		"/C/Users/Robert Kulp/Documents/SCHOOL/Spring 2015/JavaScript/Lab 8/Lab 8 Walkthrough Tutorial, Part I.html/Lesson 8/Lab 8 Walkthrough Tutorial, Part I.html",
+		"/C/xampp/htdocs/images/uploader.html",
+		"/C/xampp/htdocs/images/jquery-ui/jquery-ui-1.11.4.custom/index.html",
+		"/C/xampp/htdocs/images/configuration.txt",
+		"/C/xampp/htdocs/images/uploader.css",
+		"/C/xampp/htdocs/images/ProgressDialog.js",
+		"/C/xampp/htdocs/images/DropHandler.js",
+		"/C/xampp/htdocs/images/ImageUI.js",
+		"/C/xampp/htdocs/images/FileUploadUI.js",
+		"/C/xampp/htdocs/images/FileUploadHandler.js",
+		"/C/xampp/htdocs/images/uploader.js",
+		"/C/xampp/htdocs/images/ImageUi.js",
+		"/C/xampp/htdocs/images/constants.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/mysql/bin/my.ini",
+		"/C/Users/Robert Kulp/Desktop/web_projects/vista_park/vista_park/css/images.css",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/css/nav_bar.css",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/park_map.html",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/css/local.css",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/css/park_map.css",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/css/images.css",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/events.html",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/css/events.css",
+		"/C/Users/Robert Kulp/Documents/SCHOOL/Spring 2015/English Composition/modB_3syllabus.html/course_info_module/modB_3syllabus.html",
+		"/C/xampp/htdocs/Lab 2 Follow/css/lab2.css",
+		"/C/xampp/htdocs/Lab 2 Follow/scripts/lab2.js",
+		"/C/xampp/htdocs/Lab 2 Follow/index_1.html",
+		"/E/Web-Projects/Vista Park/Vista Park/index.html",
+		"/E/Web-Projects/Vista Park/Vista Park/scripts/front_page.js",
+		"/C/xampp/htdocs/Lab2/json.js",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Rabithole/RABITHOLE/inde.1.html",
+		"/C/xampp/htdocs/Lab1/index.1.html",
+		"/H/Web Projects/Rabithole/RABITHOLE/inde.1.html",
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Rabithole/RABITHOLE/rabitehole.sublime-project",
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Robert Kulp/Desktop/Web Projects/Rabithole/RABITHOLE/css/print.css",
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Robert Kulp/Documents/!!! SCHOOL !!!/!!!!!!!!!!!! FALL 2014 !!!!!!!!!!!!!!/Inter. Web Creation/CAS222/final_project/final_1/css/rabit.css"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"",
+			"<open files>,C:\\Users\\Robert Kulp\\Desktop\\web_projects\\vista_park\\vista_park",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scrollTop",
+			"animation",
+			"transition",
+			"jQuery.each",
+			"fadeOut",
+			"hide",
+			"fade",
+			"fadeOut",
+			"fadeout",
+			"css",
+			"forEach",
+			"}",
+			"forEach",
+			"map",
+			"stopanimation",
+			"headerimg",
+			"%;",
+			" <li>\n            <p>360-795-8605</p>\n            <br>\n            <a href=\"mailto:vistapark@vista-park.org\">vistapark@vista-park.org</a>\n            <br>\n            <a href=\"mailto:info@skamokawavistapark.org\">info@skamokawavistapark.org</a>\n        </li>",
+			"margin-bottom",
+			"<a href=\"http://countyline.vista-park.org/\" target=\"_blank\">County Line</a>",
+			"<footer>\n    <table>\n    	<td>\n    <a href=\"https://www.facebook.com/pages/Skamokawa-Vista-Park/128277777241470\" target=\"_blank\"><img src=\"images/facebook.png\" alt=\"Facebook Link\"></a>		</td>\n    	<td>\n        	Copyright Vista Park @2014\n        </td>\n        <td itemscope itemtype=\"https://schema.org/ContactPage\">\n        	<a href=\"reserve.html\" itemprop=\"url\">contact</a>\n        </td>\n        <td>\n        	<a href=\"http://www.rabithole.com/\" target=\"_blank\">Website by Rabithole Creations</a>\n        </td>\n        <td>\n        	<a href=\"http://countyline.vista-park.org\" target=\"_blank\">County Line Campground</a>\n        </td>\n    </table>\n</footer>",
+			"<footer>\n    \n</footer>",
+			"http",
+			"mentor",
+			"stopPropogation",
+			"display_startup_errors",
+			"dispaly_startup_errors",
+			"php_max_size",
+			"max_allowed_packet",
+			"#",
+			"<!--\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n-->",
+			"<!--\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n-->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n-->",
+			"<!--\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n-->",
+			"span",
+			"<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>",
+			"<!--\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n-->",
+			"FIGURE",
+			"footer",
+			"19",
+			"nav",
+			"Creation",
+			"/script",
+			"section",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" <li>\n            <p>360-795-8605</p>\n            <br>\n            <a href=\"mailto:vistapark@vista-park.org\">vistapark@vista-park.org</a>\n           \n        </li>",
+			"<a href=\"http://countyline.vista-park.org/\" target=\"_blank\">County Line Park</a>",
+			"stopPropagation",
+			"\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n",
+			"\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>",
+			"\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-51810028-1', 'vista-park.org');\n  ga('send', 'pageview');\n\n</script>\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index-1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scripts/reveal_2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "JS Snippets/js_snippets.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2710,
+								2710
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								730,
+								730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 473.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/JS xampp/Lab2.1/RK_lab3/RK_lab3/scripts/json_v3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/JS xampp/wcag/wcag.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/E/JS xampp/rte/rte2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "scripts/scrolling.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "scripts/responsive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/rabit_2.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1509,
+								1509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.548958333333,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Rabithole Redesign.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"css\\print.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

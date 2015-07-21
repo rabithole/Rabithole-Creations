@@ -48,7 +48,6 @@ header {
 
 h1 {
 	text-align: center;
-	font-size: ;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
 	letter-spacing: .2em;
@@ -112,11 +111,8 @@ section {
 #photo_p {
 	color: #fff;
 	text-decoration: none;
-	position: absolute;
-	bottom: 10%;
-	left: 10%;
-	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.4em; 
+	margin-left: 20%;
 }
 
 #photo_p:hover {
@@ -125,11 +121,31 @@ section {
 
 #section_1_5 {
 	height: 400px;
-	background-color: #aaa;
+	background-color: rgb(227,224,223);
+	background-color: rgba(10, 10, 10, .6);
 	z-index: 2000;
+	border-top: 2px solid #fff;
+}
+
+#h1_1_5 {
+	font-size: 3.8em;
+	text-shadow: 5px 5px 5px #999;
+}
+
+#p_1_5 {
+	color: #fff;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+#p_1_5 a:hover {
+	
 }
 
 #section_2 {
+	height: 1000px;
 	background-color: rgba(100, 100, 100, 1);
 	background-image: url(../images/backgrounds/under_bridge.jpg); 
 	background-size: 100%;
@@ -143,10 +159,10 @@ section {
 
 #section_2 img {
 	width: 400px;
-	padding: 10px;
-	background-color: rgba(245, 240, 240,1);
+	padding: 15px;
+	background-color: rgba(0, 0, 0, .4);
 	border-radius: 15px;
 	margin: 0 5% 2% 5%;
-	border: 5px solid #000;
+	border: 2px solid rgba(245, 240, 240,1);
 }
 

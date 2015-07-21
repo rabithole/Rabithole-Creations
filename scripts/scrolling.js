@@ -11,7 +11,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			current.className = "logoCollapse";
 			}
-			if(scroll < 90) {
+			if(scroll < 70) {
 			current.className = "logo";
 			}
 		
@@ -26,7 +26,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			current.className = "scrollNav";
 			}
-			if(scroll < 150) {
+			if(scroll < 70) {
 			current.className = "zeroScroll";
 			}
 		}	
@@ -41,7 +41,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			current.className = "headerCollapse";
 			}
-			if(scroll < 90) {
+			if(scroll < 70) {
 			current.className = "headerExpand";
 			}
 		}	
