@@ -124,8 +124,8 @@
 	width: 100px;
 	padding: 0 0 0 0;
 	top: 0;
-	left: 10%;
-	border-bottom-right-radius: 25px;
+	left: 5%;
+/*	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px; 
 	background-color: #000;
 	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
@@ -133,25 +133,30 @@
 	background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
 	background: linear-gradient(to bottom, rgba(0, 0, 0, .3),rgba(0, 0, 0, 1)); 
 	border-right: 1px solid rgb(145, 7, 12);
-	border-bottom: 3px solid rgb(145, 7, 12);
+	border-bottom: 3px solid rgb(145, 7, 12); */
 	animation-name: logoCol;
 	animation-duration: 1s;
 }
 
 @keyframes logoCol {
 	from {
-		width: 250px;
+		width: 350px;
 		padding-top: 70px;
+		left: 10%;
 	}
 	to {
 		width: 100px;
 		padding-top: 0;
+		left: 5%;
 	}
 }
 
 .logo {
-	width: 250px;
+	position: absolute;
+	width: 350px;
 	padding-top: 70px;
+	top: 0;
+	left: 10%;
 	animation-name: logoEx;
 	animation-duration: 1s;
 }
@@ -160,9 +165,10 @@
 	from {
 		width: 100px;
 		padding-top: 0;
+		left: 5%;
 	}
 	to {
-		width: 250px;
+		width: 350px;
 		padding-top: 70px;
 	}
 }

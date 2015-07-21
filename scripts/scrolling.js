@@ -26,7 +26,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			current.className = "scrollNav";
 			}
-			if(scroll < 195) {
+			if(scroll < 150) {
 			current.className = "zeroScroll";
 			}
 		}	
