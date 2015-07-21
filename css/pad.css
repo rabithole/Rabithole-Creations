@@ -31,13 +31,13 @@ header {
 	border-bottom: 1px solid rgb(229, 187, 184);
 }
 
-#logoImage {
+.logoImage {
 	position: absolute;
-	width: 250px;
+	width: 350px;
 	padding: 70px 0 0 0;
 	top: 0;
-	left: 5%;
-	border-bottom-right-radius: 25px;
+	left: 10%;
+/*	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px; 
 	background-color: #000;
 	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
@@ -45,7 +45,7 @@ header {
 	background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
 	background: linear-gradient(to bottom, rgba(0, 0, 0, .3),rgba(0, 0, 0, 1)); 
 	border-right: 1px solid rgb(145, 7, 12);
-	border-bottom: 3px solid rgb(145, 7, 12);
+	border-bottom: 3px solid rgb(145, 7, 12); */
 }
 
 h1 {
@@ -76,7 +76,7 @@ h2 {
 	position: relative;
 	top: 23%;
 	left: auto;
-	font-size: 4.5em;
+	font-size: 4em;
 }
 
 /* Photo h1 */
@@ -94,7 +94,7 @@ nav {
 	right: 20px;
 	float: right;
 	z-index: 10000;
-	top: 100px;
+	top: 70px;
 }
 
 
