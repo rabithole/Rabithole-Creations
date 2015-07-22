@@ -10,17 +10,43 @@ $(window).scroll(function(event) {
 	}
 
 	(function() {
+		var dev = document.getElementById("media_links"); 
+
+		if(scroll > 200) {
+		dev.className = "media_div_right";
+		}
+		if(scroll < 70) {
+		dev.className = "media_div_left";
+		}	
+	
+	})();
+
+	(function() {
 		var dev = document.getElementsByTagName("img");
 	
-			var current = dev[0];
+		for (var i = 0; i < dev.length; i++ + 1){
+			var current = dev[i]; 
 
 			if(scroll > 200) {
-			current.className = "logoCollapse";
+			current.className = "media_collapse";
 			}
 			if(scroll < 70) {
-			current.className = "logo";
-			}
-		
+			current.className = "mediaExpand";
+			}	
+		}
+	})();
+
+	(function() {
+		var dev = document.getElementsByTagName("img");
+	
+		var current = dev[0];
+
+		if(scroll > 200) {
+		current.className = "logoCollapse";
+		}
+		if(scroll < 70) {
+		current.className = "logo";
+		}
 	})();
 
 	(function() {
@@ -52,6 +78,4 @@ $(window).scroll(function(event) {
 			}
 		}	
 	})();
-
-	
 });

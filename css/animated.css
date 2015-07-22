@@ -172,3 +172,77 @@
 		padding-top: 70px;
 	}
 }
+
+.media_collapse {
+	width: 20px;
+	float: left;
+	margin-right: 15px;
+	animation-name: mediaCollapse;
+	animation-duration: 1s;
+}
+
+@keyframes mediaCollapse {
+	from {
+		width: 60px;
+		float: left;
+		margin-right: 15px;
+	}
+	to {
+		width: 20px;
+	}
+}
+
+.mediaExpand {
+	width: 60px;	
+	float: left;
+	margin-right: 15px;
+	animation-name: mediaExpand;
+	animation-duration: 1s;
+}
+
+@keyframes mediaExpand {
+	from {
+		width: 20px;
+		float: left;
+		margin-right: 15px;
+	}
+	to {
+		width: 60px;
+		float: left;
+		margin-right: 15px;
+	}
+}
+
+.media_div_right {
+	position: absolute;
+	top: 12%;
+	left: 15% !important;
+	animation-name: divRight;
+	animation-duration: 1s;
+}
+
+@keyframes divRight {
+	from {
+		left: 5%;
+	}
+	to {
+		left: 15%;
+	}
+}
+
+.media_div_left {
+	position: absolute;
+	top: 12%;
+	left: 5%;
+	animation-name: divLeft;
+	animation-duration: 1s;
+}
+
+@keyframes divLeft {
+	from {
+		left: 15%;
+	}
+	to {
+		left: 5%;
+	}
+}
