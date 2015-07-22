@@ -2,6 +2,10 @@
 	var x = screen.width;
 	console.log(x);
 
+	if(x < 440) {
+		var head = document.getElementsByTagName("head")[0];
+		head.removeChild(head.childNodes[0]);	
+	}
 // Mobile phones
 	if(x < 440) {
 		var cssId = 'myCss';  // you could encode the css path itself to generate id..
@@ -25,11 +29,11 @@
 		{
 		    var head  = document.getElementsByTagName('head')[0];
 		    var link  = document.createElement('link');
-		    //link.id   = cssId;
+		    link.id   = cssId;
 		    link.rel  = 'stylesheet';
-		    //link.type = 'text/css';
+		    link.type = 'text/css';
 		    link.href = 'css/pad.css';
-		    //link.media = 'all';
+		    link.media = 'all';
 		    head.appendChild(link);
 		}  
 	}
@@ -41,11 +45,11 @@
 		{
 		    var head  = document.getElementsByTagName('head')[0];
 		    var link  = document.createElement('link');
-		    //link.id   = cssId;
+		    link.id   = cssId;
 		    link.rel  = 'stylesheet';
-		    //link.type = 'text/css';
+		    link.type = 'text/css';
 		    link.href = 'css/lap_top.css';
-		    //link.media = 'all';
+		    link.media = 'all';
 		    head.appendChild(link);
 		}  
 	}
@@ -57,11 +61,11 @@
 		{
 		    var head  = document.getElementsByTagName('head')[0];
 		    var link  = document.createElement('link');
-		    //link.id   = cssId;
+		    link.id   = cssId;
 		    link.rel  = 'stylesheet';
-		    //link.type = 'text/css';
+		    link.type = 'text/css';
 		    link.href = 'css/rabit_2.css';
-		    //link.media = 'all';
+		    link.media = 'all';
 		    head.appendChild(link);
 		}  
 	}

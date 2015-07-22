@@ -78,11 +78,17 @@ h2 {
 	font-size: 4.5em;
 }
 
+#cus_web_h1 {
+	position: relative;
+	top: 35%;
+	left: -4%;
+	font-size: 4em;
+}
+
 /* Main Navigation */
 nav {
 	position: absolute;
-	float: left;
-	margin-top: 10%;
+	top: -5%;
 	z-index: 10000;
 }
 
@@ -90,11 +96,12 @@ nav li {
 	float: ;
 	width: 80px;
 	background-color: rgba(0, 42, 255, 1);
-/*	background: -webkit-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1));
-	background: -o-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1));
-	background: -moz-linear-gradient(to bottom, rgba(0, 42, 255, 1), rgba(0, 42, 255, 1)); */
-	background: linear-gradient(to bottom, rgba(156, 60, 255, 1), rgba(70, 70, 200, 1));
-	margin-bottom: 0px;
+background-color: rgba(140, 100, 20, 1);
+	background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
+	background: -o-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
+	background: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%); 
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
+	margin-bottom: 10px;
 	height: 25px;
 	padding:  5px 50px 0 10px;
 	list-style: none;
@@ -112,8 +119,6 @@ nav a {
 
 section {
 	position: relative;
-	top: ;
-	margin-top: 203px;
 	width: 100%;
 /*	background-color: rgba(255,255,255,1); */
 	height: 1000px;
@@ -133,13 +138,34 @@ section {
 #photo_p {
 	color: #fff;
 	text-decoration: none;
-	position: initial;
-	bottom: 10%;
-	left: 10%;
+	margin-left: 15%;
 	text-align: center;
 	font-size: 1.6em;
 }
 
+#section_1_5 {
+	height: 400px;
+	background-color: rgb(227,224,223);
+	background-color: rgba(10, 10, 10, .6);
+	z-index: 2000;
+	border-top: 2px solid #fff;
+}
+
+#h1_1_5 {
+	font-size: 3.8em;
+	text-shadow: 5px 5px 5px #999;
+	margin: 2% 6% 0 6%;
+	text-align: center;
+}
+
+#p_1_5 {
+	color: #fff;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	margin: 5% 8% 0 8%;
+}
 
 #section_2 {
 	height: 750px;
