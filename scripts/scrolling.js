@@ -3,6 +3,12 @@ $(window).scroll(function(event) {
 	var scroll = $(window).scrollTop();
 	console.log(scroll);
 
+	var x = screen.width;
+
+	if(x < 441) {
+		return;
+	}
+
 	(function() {
 		var dev = document.getElementsByTagName("img");
 	
