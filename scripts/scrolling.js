@@ -22,7 +22,7 @@ $(window).scroll(function(event) {
 	})();
 
 	(function() {
-		var dev = document.getElementsByTagName("img");
+		var dev = document.getElementsByClassName("media");
 	
 		for (var i = 0; i < dev.length; i++ + 1){
 			var current = dev[i]; 
@@ -74,7 +74,7 @@ $(window).scroll(function(event) {
 			current.className = "headerCollapse";
 			}
 			if(scroll < 70) {
-			current.className = "headerExpand";
+				current.className = "headerExpand";
 			}
 		}	
 	})();

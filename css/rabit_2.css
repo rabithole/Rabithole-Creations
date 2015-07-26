@@ -25,7 +25,8 @@ header {
 	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: linear-gradient(to bottom, rgba(255, 255, 255, .2) 2%, rgba(145, 7, 12, 1));
 	z-index: 1000;
-	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));	
+	background: -webkit-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));	
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	border-bottom: 1px solid rgb(229, 187, 184);
 }
 
@@ -170,4 +171,6 @@ section {
 	margin: 0 5% 2% 5%;
 	border: 2px solid rgba(245, 240, 240,1);
 }
+
+
 
