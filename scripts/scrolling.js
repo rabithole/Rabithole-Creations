@@ -22,16 +22,17 @@ $(window).scroll(function(event) {
 	})();
 
 	(function() {
-		var dev = document.getElementsByClassName("media");
-	
-		for (var i = 0; i < dev.length; i++ + 1){
-			var current = dev[i]; 
+		var dev = [].slice.call(document.getElementsByTagName("img"));
+		var img = dev.slice(1,4);
+
+		for (var i = 0; i < img.length; i++ + 1){
+			//var current = img[i]; 
 
 			if(scroll > 200) {
-			current.className = "media_collapse";
+			img[i].className = "media_collapse";
 			}
 			if(scroll < 70) {
-			current.className = "mediaExpand";
+			img[i].className = "mediaExpand";
 			}	
 		}
 	})();
