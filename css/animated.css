@@ -101,8 +101,8 @@
 }
 
 .headerExpand {
-	height: 80px;
-	font-size: 1em;
+/*	height: 80px;
+	font-size: 1em; */
 	animation-name: headerExp;
 	animation-duration: 1s;
 }

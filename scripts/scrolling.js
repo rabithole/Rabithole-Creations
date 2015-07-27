@@ -3,6 +3,15 @@ $(window).scroll(function(event) {
 	var scroll = $(window).scrollTop();
 	console.log(scroll);
 
+/*	function scrollCounter() {
+		var scrollCount = 0;
+
+		if(document.scroll = true) {
+			scrollCount + 1;
+		}
+	}
+	scrollCounter(); */
+
 	var x = screen.width;
 
 	if(x < 441) {
@@ -15,7 +24,7 @@ $(window).scroll(function(event) {
 		if(scroll > 200) {
 		dev.className = "media_div_right";
 		}
-		if(scroll < 70) {
+		if(scroll < 70 && dev.className == "media_links") {
 		dev.className = "media_div_left";
 		}	
 	
@@ -31,7 +40,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			img[i].className = "media_collapse";
 			}
-			if(scroll < 70) {
+			if(scroll < 70 && img[i].className == "media_collapse") {
 			img[i].className = "mediaExpand";
 			}	
 		}
@@ -45,7 +54,7 @@ $(window).scroll(function(event) {
 		if(scroll > 200) {
 		current.className = "logoCollapse";
 		}
-		if(scroll < 70) {
+		if(scroll < 70 && current.className == "logoCollapse") {
 		current.className = "logo";
 		}
 	})();
@@ -59,7 +68,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			current.className = "scrollNav";
 			}
-			if(scroll < 70) {
+			if(scroll < 70 && current.className == "scrollNav") {
 			current.className = "zeroScroll";
 			}
 		}	
@@ -74,7 +83,7 @@ $(window).scroll(function(event) {
 			if(scroll > 200) {
 			current.className = "headerCollapse";
 			}
-			if(scroll < 70) {
+			if(scroll < 70 && current.className == "headerCollapse") {
 				current.className = "headerExpand";
 			}
 		}	
