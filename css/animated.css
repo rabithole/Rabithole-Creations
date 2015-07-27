@@ -217,7 +217,7 @@
 .media_div_right {
 	position: absolute;
 	top: 12%;
-	left: 15% !important;
+	left: 15%;
 	animation-name: divRight;
 	animation-duration: 1s;
 }
@@ -236,7 +236,7 @@
 	top: 12%;
 	left: 5%;
 	animation-name: divLeft;
-	animation-duration: 1s;
+	animation-duration: 1ks;
 }
 
 @keyframes divLeft {

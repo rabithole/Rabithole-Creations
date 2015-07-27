@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"create",
-				"createSelection"
+				"get",
+				"getElementsByTagName"
 			],
 			[
-				"get",
-				"getElementById"
+				"create",
+				"createSelection"
 			],
 			[
 				"back",
@@ -135,39 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1758,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/JS xampp/Lab2.1/RK_lab3/RK_lab3/scripts/json_v3.js",
-			"settings":
-			{
-				"buffer_size": 5106,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/JS xampp/wcag/wcag.js",
-			"settings":
-			{
-				"buffer_size": 5390,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/JS xampp/rte/rte2.js",
-			"settings":
-			{
-				"buffer_size": 3784,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/scrolling.js",
-			"settings":
-			{
-				"buffer_size": 885,
+				"buffer_size": 2391,
 				"line_ending": "Windows"
 			}
 		},
@@ -175,15 +143,7 @@
 			"file": "scripts/responsive.js",
 			"settings":
 			{
-				"buffer_size": 1901,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/rabit_2.css",
-			"settings":
-			{
-				"buffer_size": 3112,
+				"buffer_size": 1997,
 				"line_ending": "Windows"
 			}
 		}
@@ -220,16 +180,19 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts"
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE"
 	],
 	"file_history":
 	[
-		"/E/JS xampp/wcag/bookmarklet.js",
+		"/E/JS xampp/rte/rte2.js",
+		"/E/JS xampp/wcag/wcag.js",
+		"/E/JS xampp/Lab2.1/RK_lab3/RK_lab3/scripts/json_v3.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/scrolling.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/responsive.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit_2.css",
+		"/E/JS xampp/wcag/bookmarklet.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/jQuery/jquery-1.11.3.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit_2.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/json/sec_1_images.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/json/sec_1_images.json",
 		"/E/JS xampp/Lab2/scripts/json.js",
@@ -348,11 +311,7 @@
 		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Robert Kulp/Desktop/Web Projects/Rabithole/RABITHOLE/rabitehole.sublime-project",
-		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Robert Kulp/Desktop/Web Projects/Rabithole/RABITHOLE/css/print.css",
-		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
-		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
-		"/C/Users/Robert Kulp/Documents/!!! SCHOOL !!!/!!!!!!!!!!!! FALL 2014 !!!!!!!!!!!!!!/Inter. Web Creation/CAS222/final_project/final_1/css/rabit.css"
+		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -374,6 +333,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"map",
 			"scrollTop",
 			"animation",
 			"transition",
@@ -500,7 +460,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -516,193 +476,13 @@
 						"selection":
 						[
 							[
-								2710,
-								2710
+								501,
+								501
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1480.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								730,
-								730
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 473.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/JS xampp/Lab2.1/RK_lab3/RK_lab3/scripts/json_v3.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								186
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/E/JS xampp/wcag/wcag.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/E/JS xampp/rte/rte2.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3784,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								692,
-								692
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 7,
-					"file": "scripts/scrolling.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								536,
-								536
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "scripts/responsive.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1901,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								464,
-								464
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -712,33 +492,67 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "css/rabit_2.css",
+					"buffer": 3,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3112,
+						"buffer_size": 2391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1509,
-								1509
+								484,
+								484
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "scripts/responsive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -772,7 +586,7 @@
 		"cols":
 		[
 			0.0,
-			0.548958333333,
+			0.619270833333,
 			1.0
 		],
 		"rows":
@@ -824,7 +638,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

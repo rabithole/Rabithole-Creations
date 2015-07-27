@@ -24,7 +24,7 @@ $(window).scroll(function(event) {
 		if(scroll > 200) {
 		dev.className = "media_div_right";
 		}
-		if(scroll < 70 && dev.className == "media_links") {
+		if(scroll < 70 && dev.className == "media_div_right") {
 		dev.className = "media_div_left";
 		}	
 	
