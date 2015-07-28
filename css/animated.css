@@ -176,7 +176,7 @@
 .media_collapse {
 	width: 20px;
 	float: left;
-	margin-right: 15px;
+	margin-right: 5px;
 	animation-name: mediaCollapse;
 	animation-duration: 1s;
 }
@@ -205,7 +205,7 @@
 	from {
 		width: 20px;
 		float: left;
-		margin-right: 15px;
+		margin-right: 5px;
 	}
 	to {
 		width: 60px;
@@ -217,7 +217,7 @@
 .media_div_right {
 	position: absolute;
 	top: 12%;
-	left: 15%;
+	left: 15% !important;
 	animation-name: divRight;
 	animation-duration: 1s;
 }
@@ -234,9 +234,9 @@
 .media_div_left {
 	position: absolute;
 	top: 12%;
-	left: 5%;
+	left: 5% !important;
 	animation-name: divLeft;
-	animation-duration: 1ks;
+	animation-duration: 1s;
 }
 
 @keyframes divLeft {

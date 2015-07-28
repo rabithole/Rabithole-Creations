@@ -1,3 +1,8 @@
+#nav_pos_ie {
+	position: relative;
+	margin: 5% 0 0 0;
+}
+
 nav {
 	position: fixed;
 	right: 70px;
