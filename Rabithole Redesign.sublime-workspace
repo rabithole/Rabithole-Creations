@@ -116,50 +116,43 @@
 			}
 		},
 		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2391,
+				"buffer_size": 2494,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/responsive.js",
+			"file": "photo.html",
 			"settings":
 			{
-				"buffer_size": 1997,
+				"buffer_size": 7338,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/scrolling.js",
+			"contents": "Searching 6 files for \"rel=\"portrait\"\"\n\nC:\\Users\\Robert Kulp\\xampp\\htdocs\\rabithole\\RABITHOLE\\photo.html:\n   22          <ul class=\"thumb-list\">\n   23  <!-- W3C Error. -->        	<h3>Portraits</h3> <!-- H3 inside of a ul -->\n   24:             <li><a href=\"images/slide/anna_best_large.jpg\" title=\"My Favorite Portrait\" rel=\"portrait\"><img src=\"images/slide/anna_best_thumb.jpg\" alt=\"Favorite Anna portrait\"></a></li>\n   25:             <li><a href=\"images/large/red_heads_large.jpg\" title=\"Trio of red Heads\" rel=\"portrait\"></a></li>\n   26:             <li><a href=\"images/slide/sink_bath_large.jpg\" title=\"Baby's bath in the sink\" rel=\"portrait\"></a></li>\n   27:             <li><a href=\"images/slide/baby_smile_large.jpg\" title=\"Baby's big smile\" rel=\"portrait\"></a></li>\n   28:             <li><a href=\"images/slide/farmer_chyann_large.jpg\" title=\"Chyann on the fence\" rel=\"portrait\"></a></li>\n   29    		<p>\n   30          My portraits have been about catching those moments that are fleeting in life. I pride myself in being able to have the camera settings right for those moments when the conditions are in perpetual flux. The only photo in this section that was planned is the last picture of the farmer girl Chyann. I really appreciated the tasteful way she pulled it off. It really was a Halloween costume.  \n\nC:\\Users\\Robert Kulp\\xampp\\htdocs\\rabithole\\RABITHOLE\\play_ground.html:\n  115          <ul class=\"thumb-list\">\n  116          	<h3>Portraits</h3>\n  117:             <li><a href=\"images/slide/anna_best_large.jpg\" title=\"My Favorite Portrait\" rel=\"portrait\"><img src=\"images/slide/anna_best_thumb.jpg\" alt=\"Favorite Anna portrait\"></a></li>\n  118:             <li><a href=\"images/slide/red_heads_large.jpg\" title=\"Trio of red Heads\" rel=\"portrait\"></a></li>\n  119:             <li><a href=\"images/slide/sink_bath_large.jpg\" title=\"Baby's bath in the sink\" rel=\"portrait\"></a></li>\n  120:             <li><a href=\"images/slide/baby_smile_large.jpg\" title=\"Baby's big smile\" rel=\"portrait\"></a></li>\n  121:             <li><a href=\"images/slide/farmer_chyann_large.jpg\" title=\"Chyann on the fence\" rel=\"portrait\"></a></li>\n  122    		<p>\n  123          My portraits have been about catching those moments that are fleeting in life. I pride myself in being able to have the camera settings right for those moments when the conditions are in perpetual flux. The only photo in this section that was planned is the last picture of the farmer girl Chyann. I really appreciated the tasteful way she pulled it off. It really was a Halloween costume.  \n\n10 matches across 2 files\n",
 			"settings":
 			{
-				"buffer_size": 1780,
-				"line_ending": "Windows"
+				"buffer_size": 2590,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
-			"file": "css/animated.css",
+			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 4349,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/nav.css",
-			"settings":
-			{
-				"buffer_size": 1097,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/lap_top.css",
-			"settings":
-			{
-				"buffer_size": 3021,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -197,11 +190,19 @@
 	"expanded_folders":
 	[
 		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE",
-		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/css",
-		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/scripts"
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/bootstrap/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/bootstrap/css/bootstrap.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/play_ground.html",
+		"/C/Users/Robert Kulp/Downloads/bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.css",
+		"/C/Users/Robert Kulp/Downloads/bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/css/nav.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/css/lap_top.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/scripts/responsive.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/scripts/scrolling.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/css/animated.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/css/rabit_2.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/scripts/reveal_2.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/rabithole/RABITHOLE/index-1.html",
@@ -320,26 +321,18 @@
 		"/C/Users/Robert Kulp/Desktop/Web Projects/Vista Park/Vista Park/css/events.css",
 		"/C/Users/Robert Kulp/Documents/SCHOOL/Spring 2015/English Composition/modB_3syllabus.html/course_info_module/modB_3syllabus.html",
 		"/C/xampp/htdocs/Lab 2 Follow/css/lab2.css",
-		"/C/xampp/htdocs/Lab 2 Follow/scripts/lab2.js",
-		"/C/xampp/htdocs/Lab 2 Follow/index_1.html",
-		"/E/Web-Projects/Vista Park/Vista Park/index.html",
-		"/E/Web-Projects/Vista Park/Vista Park/scripts/front_page.js",
-		"/C/xampp/htdocs/Lab2/json.js",
-		"/C/Users/Robert Kulp/Desktop/Web Projects/Rabithole/RABITHOLE/inde.1.html",
-		"/C/xampp/htdocs/Lab1/index.1.html",
-		"/H/Web Projects/Rabithole/RABITHOLE/inde.1.html",
-		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Robert Kulp/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+		"/C/xampp/htdocs/Lab 2 Follow/scripts/lab2.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 102.0,
 		"where_history":
 		[
+			"<open files>",
 			"",
 			"<open files>,C:\\Users\\Robert Kulp\\Desktop\\web_projects\\vista_park\\vista_park",
 			"<open files>",
@@ -351,6 +344,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<article class=\"col-sm-3\">",
+			"<article class=\"col-sm-2\">",
+			"<article class=\"col-sm-6\">",
+			"<article class=\"col-sm-4\">",
+			"sm",
+			"<article class=\"col-sm-2\">",
+			"<article class=\"col-sm-8\">",
+			"<article class=\"col-sm-3\">",
+			"<article class=\"col-sm-6\">",
+			"<article class=\"col-lg-6\">",
+			"<article class=\"col-lg-5\">",
+			"<article class=\"col-lg-4\">",
+			"<article class=\"col-lg-3\">",
+			"<article class=\"col-md-3 col-xs-6\">",
+			"<article class=\"col-md-3\">",
+			"<article class=\"row\" class=\"col-md-3\">",
+			"<article class=\"row\">",
+			"<article>",
+			"rel=\"sunsets\"",
+			"rel=\"products\"",
+			"rel=\"water\"",
+			"rel=\"night\"",
+			"rel=\"scapes\"",
+			"rel=\"portrait\"",
+			"photo",
 			"header",
 			"map",
 			"scrollTop",
@@ -404,6 +422,24 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<article class=\"col-sm-4\">",
+			"<article class=\"col-sm-3\">",
+			"<article class=\"col-sm-2\">",
+			"<article class=\"col-sm-6\">",
+			"<article class=\"col-sm-4\">",
+			"<article class=\"col-sm-2\">",
+			"<article class=\"col-sm-8\">",
+			"<article class=\"col-sm-3\">",
+			"<article class=\"col-sm-6\">",
+			"<article class=\"col-lg-5\">",
+			"<article class=\"col-lg-4\">",
+			"<article class=\"col-lg-3\">",
+			"<article class=\"col-md-3 col-xs-6\">",
+			"<article class=\"row\" class=\"col-md-3 col-xs-6\">",
+			"<article class=\"col-md-3\">",
+			"<article class=\"row\" class=\"col-md-3\">",
+			"<article class=\"row\">",
+			"",
 			" <li>\n            <p>360-795-8605</p>\n            <br>\n            <a href=\"mailto:vistapark@vista-park.org\">vistapark@vista-park.org</a>\n           \n        </li>",
 			"<a href=\"http://countyline.vista-park.org/\" target=\"_blank\">County Line Park</a>",
 			"stopPropagation",
@@ -420,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -442,30 +478,58 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2391,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								730,
-								730
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
 							]
 						],
 						"settings":
@@ -474,115 +538,99 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 547.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scripts/responsive.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1997,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								613,
-								613
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 22.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scripts/scrolling.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								467,
-								467
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 121.0,
+						"translation.y": 621.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "css/animated.css",
+					"buffer": 3,
+					"file": "photo.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4349,
+						"buffer_size": 7338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4092,
-								4092
+								421,
+								421
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4114.0,
+						"translation.y": 248.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 5,
-					"file": "css/nav.css",
+					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1097,
+						"buffer_size": 2590,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										321,
+										335
+									],
+									[
+										511,
+										525
+									],
+									[
+										634,
+										648
+									],
+									[
+										751,
+										765
+									],
+									[
+										874,
+										888
+									],
+									[
+										1563,
+										1577
+									],
+									[
+										1753,
+										1767
+									],
+									[
+										1876,
+										1890
+									],
+									[
+										1993,
+										2007
+									],
+									[
+										2116,
+										2130
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
@@ -593,23 +641,29 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 207.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "css/lap_top.css",
+					"buffer": 5,
+					"file": "css/custom.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3021,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -622,11 +676,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 690.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -637,7 +690,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -652,18 +705,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.444363103953,
 			1.0
 		],
 		"rows":
@@ -681,7 +727,7 @@
 	"project": "Rabithole Redesign.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
