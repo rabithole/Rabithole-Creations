@@ -9,6 +9,8 @@
 <link href="css/nav.css" rel="stylesheet"> <!-- Initial nav stylesheet -->
 <script src="scripts/responsive.js"></script> <!-- Sets stylesheet by screen size -->
 <link href="css/animated.css" rel="stylesheet"> <!-- Stylesheet animation for nav and header elements -->
+<link href="css/footer.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -35,8 +37,8 @@
 <div id="nav_pos_ie">
 	<nav  id="clickNav">
 		<ul>
-	    	<a href="#"><li id="dev" class="nav_li">Web Work</li></a>
-	        <a href="photo.html"><li id="creative">Phtography</li></a>
+	    	<a href="#"><li id="dev" class="nav_li">Web Portfolio</li></a>
+	        <a href="photo.html"><li id="creative">Photography</li></a>
 	        <a href="#"><li id="playground">Playground</li></a>
 	        <a href="#"><li id="employer">Employers</li></a>
 	        <a href="#"><li id="client">Clients</li></a>
@@ -62,15 +64,43 @@
 		<img src="images/large/farm_mist_large.jpg">
 		<img src="images/large/marina_night_large.jpg">
 	</p>
-		<a href="#" id="photo_p">To see more of my photography, follow this link.</a>
+		<a href="photo.html" id="photo_p">To see more of my photography, follow this link.</a>
 	<p>	
 		<img src="images/large/under_bridge_large1.jpg">
 		<img src="images/large/farmer_chyann_large.jpg">
 		<img src="images/large/love_at_sunset_large.jpg">
 	</p>
 </section>
-<script src="scripts/scrolling.js"></script> <!-- Creates collapsable nav and header elements -->
 
+<footer>
+	<article> 
+    <div>        
+        <h2>email: pedalinon@gmail.com <br> phone: 360-600-5862</h2>
+        
+        <form id="contact" method="post" action="contact_process.php">
+        	<label>Name</label>
+        	<input type="text" id="name" name="name" required>
+            <label>Company</label>
+            <input type="text" id="company" name="company">
+            <label>Email</label>
+            <input type="text" id="email" name="email">
+            <label>Phone number</label>
+            <input type="text" id="tel" name="tel">
+            
+            <label>Message</label>
+            <textarea rows="7" name="comments"></textarea>
+            <div class="clearit"></div>
+            
+            <button id="submit" type="submit" value="submit">Send</button>
+            <button id="reset" type="reset" value="reset">Reset</button>          
+        </form>  
+  
+        <div class="clearit"></div>
+    </div>
+</article>
+</footer>
+
+<script src="scripts/scrolling.js"></script> <!-- Creates collapsable nav and header elements -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
