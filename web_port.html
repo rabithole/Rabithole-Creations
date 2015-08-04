@@ -2,86 +2,88 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Web Portfolio</title>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/custom_web.css" rel="stylesheet">
 
 </head>
 <body>
 
-<article id="web_port" class="reveal">
-	<div id="web_block">
-		<h1>Web Projects</h1>
-        <section id="vista">
-        	<h3>Vista Park Campground</h3>
+<header>
+    <div class="row" id="nav">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li role="presentation"><a href="http://www.rabithole.com/">Home</a></li>
+                    <li role="presentation"><a href="web_port.html">Web Portfolio</a></li>
+                    <li role="presentation"><a href="photo.html">Photography</a></li>
+                    <li role="presentation"><a href="#">Employers</a></li>
+                    <li role="presentation"><a href="#">Clients</a></li>
+                </ul>
+            </div>
+            <h1>Web Projects</h1>
+        </nav>
+    </div>
+</header>
+
+<div id="wrapper"> 
+    <div class="row">
+        <article class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-lg-5 col-lg-offset-2">		
+            <h3>Vista Park Campground</h3>
            
-             <p> <a href="http://www.vista-park.org" target="_blank"><img src="images/web_projects/vista.jpg" alt="Vista Park Campground"></a>
-           Vista Park is an RV, tent and yurt campground located in the quaint little town of Skamokawa Washington. Operated by Port #2 of Wahkiakum County this project was a complete redesign. With great views and an amazing beach, I saw the need for extensive photography. Photographs were initially taken in RAW format then processed in Photoshop. Photoshop was used to process photos, create the Vista Park logo, park map, panoramas in the events page and the 360 panorama on the park photos page.  
+            <a href="http://www.vista-park.org" target="_blank"><img src="images/web_projects/vista.jpg" class="img-responsive" alt="Vista Park Campground"></a>
+
+            <p class="p_width">
+                A paragraph goes here. 
+            </p>        
+        </article>
+     <!--   <article class=""></article> -->
+        <article  class="col-md-6 col-sm-5 col-lg-5">
+        	<h3>County Line Park</h3> 
+
+            <a href="http://countyline.vista-park.org/index.html" target="_blank"><img src="images/web_projects/county_line.jpg" class="img-responsive" alt="County Line Park"></a>
+           
+            <p class="p_width">
+            Another paragraph goes here. 
             </p>
-            <p>
-             I created a park map using Photoshop to create an overlay over a Google Earth image. The maps layout is geographically accurate do to the method used in its creation. The printable map used by the office was given a few adjustments to aid the park staff in giving directions to visitors.   
-            </p>
-            <p>
-            Much time was spent on the navigation as it is entirely done with CSS. I utilized code I had used in a class project. It was an extensive learning experience with nested lists and hidden elements. The right color combination was key as it needed to work on every page of the site. 
-            </p>
-            <p> 
-           <span> I spent my summer 2014 term intensively applying SEO techniques to this site. Utilizing Google Webmaster tools and eventually integrating some Micro data using schema.org. I acquired tons of data and was able to increase traffic to the site with a combination of Facebook marketing and an effective landing page. The data showed site visitors predominately landed on the main page first and progressed to key parts of the site to find various camping information they might need for their stay. The scope of this project didn't allow me to explore other social media outlets. Something I know is important, depending on the project.</span>
-            </p>
-            
-            	<dl>
-                <dt>Experience Gained from this project</dt>
-                    <dd>Responsive design. (See the events page)</dd>
-                    <dd>Google Maps Integration</dd>
-                    <dd>Front page slide show. Background image layout for different size screens.</dd>
-                    <dd>Logo creation</dd>
-                    <dd>Park Map creation</dd>
-                    <dd>Integrate CSS drop-down navigation</dd>
-                    <dd>Summer Co-Op class. I focused entirely on site SEO for Vista Park</dd>
-                    <dd>jQuery slideshows and image gallery</dd>
-                </dl>
-                <dl id="photo_shop">
-                <dt>Photoshop Techniques Utilized</dt>
-                	<dd>HDR</dd>
-                    <dd>360 Panoramas</dd>
-                    <dd>Image Composites</dd>
-                    <dd>Color, contrast and other lighting adjustments.</dd>
-                    <dd>Retouching scanned historic photos</dd>    
-                </dl>
-        </section>
-        
-        <section id="county_line">  
-        	<h3>County Line Park</h3>
-            <p>  
-            <a href="http://countyline.vista-park.org/index.html" target="_blank"><img src="images/web_projects/county_line.jpg" alt="County Line Park"></a>
-            County Line Park is also owned by Port #2 of Wahkiakum County. A much smaller park that is favored by fisherman due to it's close access to the Columbia River. It did not require a site as extensive as Vista Park or a separate business image. I created a sub domain for this site, both to save money and as a learning exercise I utilized the templates I created for Vista Park to quickly create this site. By doing so I kept a common theme for Port #2 in an effort that visitors might make the connection that these two parks are part of the same operation. 
-            </p>
-        </section>
-        
-        <section id="oowee">  
+        </article>
+    </div>
+
+    <div class="row">
+        <article class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-lg-5 col-lg-offset-2">
         	<h3>Oowee Gooey Brownies</h3>
-            <p>  
-            <a href="http://www.ooweegooeybrownies.com" target="_blank"><img src="images/web_projects/oowee.jpg" alt="Oowee Gooey Brownies"></a>
+            <a href="http://www.ooweegooeybrownies.com" target="_blank"><img src="images/web_projects/oowee.jpg" class="img-responsive" alt="Oowee Gooey Brownies"></a>
+            
+            <p class="p_width">  
             This was my first ever project to go live on the web. It involved some very specific instructions from the client who had a Graphic Designer work with me in its design. They are located in Southern California and required a trip there to take all the photos in a two day span. All processing was done by me. Overall I am satisfied with them. I learned a lot with this experience and look forward to applying what I learned toward my next product photography venture. I utilized squareup.com for their online store. I hope to learn to create custom online stores in the future.   
             </p>
-        </section>
-        
-        <section id="3m">
+        </article>
+        <article class=""></article>
+        <article class="col-md-6 col-sm-5 col-lg-5">
         	<h3>Triple "M" Alpacas</h3>
-            <p>
-            <a href="http://www.triplemalpacas.com/" target="_blank"><img src="images/web_projects/3m.jpg" alt='Triple "M" Alpacas'></a> 			
+             <a href="http://www.triplemalpacas.com/" target="_blank"><img src="images/web_projects/3m.jpg" class="img-responsive" alt='Triple "M" Alpacas'></a> 
+
+            <p class="p_width">			
             This is the second site I created. A family run operation that simply enjoys the lifestyle. Alpaca's were advertised as a great investment opportunity that died in the 2008 banking crash. I learned a lot about CSS when creating this site. In particular, how the mouse hover event could be used to expose hidden objects. This was the first time I used a photograph as a background picture for a site. What I learned here I have applied to responsive design techniques. 
             </p>
-        </section>
-        	<div class="clearit"></div>
-            
-        <section id="skcreamery">
-        	<h3>Skamokawa Farmstead Creamery</h3>
-            <p>
-            <a href="skcreamery/index.html" target="_blank"><img src="images/web_projects/skcreamery.jpg" alt="Skamokawa Farmstead Creamery"></a>
-            A new business located in Wahkiakum County, disappointedly I wasn't able to finish this site. What is here are pages designed to give the owners some different looks to consider. This site is unfinished and was suppose to evolve as the business took shape. Unfortunately I was caught in the internal turmoil between the partners. Now this site exists on my computer alone. I learned much about CSS positioning with this site and pushed my boundaries in stylizing pages using CSS. It was the request of the owners that it would be very artistic. I received positive feedback up until the partners decided to part ways. Overall it was a good learning experience for me in regards to client dynamics.   
-            </p>
-        </section>
-        <div class="clearit"></div>
-    </div><!-- id = Web_block -->
-</article> 
+                	<div class="clearit"></div>
+        </article>
+    </div>
+</div> <!-- Container -->
+
+<script src="jQuery/jquery-1.11.3.min.js"></script>
+<script  src="bootstrap/js/bootstrap.js"></script>
 
 </body>
 </html>
