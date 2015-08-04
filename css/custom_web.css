@@ -1,0 +1,75 @@
+body {
+	background-color: rgba(169,13,7,1);
+	color: #ccc;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 5000;
+}
+
+.navbar-default {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(40,131,204, 1) 90%, rgba(24,227,255, 1) , rgba(255, 255, 255, .6) 95%);
+}
+
+#collapse a {
+	color: #fff;
+	margin-right: 1em;
+	font-size: 1.5em;
+	margin-top: 8px;
+}
+
+#collapse a:hover {
+	color: #000;
+}
+
+h1 {
+	float: left;
+	margin-left: 5em;
+	margin-bottom: -10px;
+	color: #000;
+	font-size: 3.5em;
+}
+
+#wrapper {
+	margin: 10em auto 5em auto;
+}
+
+img {
+	background-color: rgba(0,0,0,1);
+	padding: 5px;
+	border-radius: 8px;
+}
+
+@media(max-width: 769px) {
+	#wrapper {
+		padding-left: 2em;
+	}
+	img {
+		width: 80%;
+	}
+	h1 {
+		margin-left: 1em;
+		font-size: 2.5em;
+	}
+}
+
+@media(max-width: 450px) {
+	img {
+		width: ;
+	}
+
+	#wrapper {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+}
+
+.p_width {
+	width: 70%;
+	padding-top: 2em;
+}
+
