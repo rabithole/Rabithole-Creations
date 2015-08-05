@@ -1,3 +1,7 @@
+body {
+	background-color: rgba(50,50,100,1);
+}
+
 header {
 	width: 100%;
 	top: 0;
@@ -13,6 +17,10 @@ header {
 	border-bottom: 1px solid rgb(229, 187, 184);
 }
 
+.row {
+	margin-bottom: 1em;
+}
+
 h1 {
 	margin-left: 5em;
 	color: #ccc;
@@ -25,9 +33,10 @@ h1 {
 	h1 {
 		font-size: 2.5em;
 		margin-left: 3em;
+		padding-top: 10px;
 	}
-	header {
-		position: fixed;
+	.container-fluid {
+		margin-top: -20px;
 	}
 }
 
@@ -35,7 +44,9 @@ h1 {
 	h1 {
 		font-size: 2em;
 		margin-left: 1em;
+		padding-top: 5px;
 	}
+	
 }
 
 #first_row {
