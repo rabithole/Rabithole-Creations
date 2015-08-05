@@ -9,8 +9,12 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/employer_custom.css" rel="stylesheet">
 
+<<<<<<< HEAD
 <script src="scripts/photo_slideshow.js"></script>
 
+=======
+<!--
+>>>>>>> employers
 <script>
     window.onload = alert("This site is under construction. Components of this site are not yet functioning.");
 </script>
@@ -28,27 +32,83 @@
 </head>
 <body>
 
-<div class="row">
-    <header class="col-md-12">
-        <h1>Welcome Potential Employers</h1>
-    </header>
-</div>
+<div class="container-fluid">
+  <div class="row" id="nav">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="collapse">
+            <ul class="nav navbar-nav">
+                <li role="presentation"><a href="http://www.rabithole.com/">Home</a></li>
+                <li role="presentation"><a href="web_port.html">Web Portfolio</a></li>
+                <li role="presentation"><a href="photo.html">Photography</a></li>
+                <li role="presentation"><a href="#">Employers</a></li>
+                <li role="presentation"><a href="#">Clients</a></li>
+            </ul>
+        </div>
+        <h1 id="main_header">Welcome Employers</h1>
+    </nav>
+  </div>      
 
-<article class="row" id="second_row">
-    <div class="col-md-12">
-    <p></p>
+  <article class="row" id="first_row">
+    <div class="col-md-8 col-md-offset-2">
+        <h2 class="intro" id="top_par">I believe there is a lot of value in learning the core of a technology. With this in mind, I hand coded the landing page from srcatch uisng HTML5, CSS3, JS and AJAX. The animations at the top of the page were created using JS and CSS3. My web portfolio, photography and employer pages are layed out with bootstrap.</h2>>
     </div>
-</article>
+    <div class="col-md-2">
+    </div>
+  </article>
 
-<article class="row" id="third_row">
-    <div class="col-md-12">
-</article>
+  <article class="row" id="second_row">
+      <div class="col-md-5 col-md-offset-2">
+        <p class="intro">My focus as of the summer of 2015 is developing my skills with Javascript. I found myself in a pilot class this past spring at PCC for advanced JS that introduced me to AJAX, Angular and Node. After each term I put what I learn in class into real world projects. This summer that is this website. While I have been introduced to Angular and Node, as of the time of this writing, I haven't yet implemented them into this site. What I have done is gain experience writing vanilla JS, utltilized Bootstrap, AJAX for images on the landing page using a json file, introduced Git into my workflow as well as XAMPP. You can find a link to my GitHub account on the main page and in the footer.</p>
 
-<!-- Row 5 Footer -->
-<footer class="row">
-   
+        <p class="intro">I am searching for an agile team to call home. A place I can grow and eventually become an integral part of their work flow. It is my goal to become an advanced Javascript programmer as that seems to be where the industry is heading. However, I am willing to learn what I need to help the team. </p>
+      </div>
+      <div class="col-md-4 col-md-offset-1">
+        <dl>
+          <dt>Skills</dt>
+            <dd>Advanced CSS3 &amp; HTML5</dd>
+            <dd>Responsive Design</dd>
+            <dd>Javascript</dd>
+            <dd>Chrome Developer Tools</dd>
+            <dd>Bootstrap</dd>
+            <dd>AJAX</dd>
+            <dd>jQuery</dd>
+            <dd>Photoshop photo processing</dd>
+            <dd>Photography</dd>
+            <dd>Google Analytics</dd>
+            <dd>SEO Standards, Micro Data</dd>
+        </dl>
+
+        <dl>
+          <dt>Skills on my horizon</dt>
+            <dd>PHP</dd>
+            <dd>Database creation and management</dd>
+            <dd>Angular</dd>
+            <dd>Node.js</dd>
+            <dd>Sass and Less</dd>
+        </dl>
+      </div>
+  </article>
+<footer>
+  <article class="row" id="third_row">
+      <div class="col-md-12">
+        <dl>
+          <dt>Contact Information</dt>
+            <dd>Robert Kulp</dd>
+            <dd>360-600-5862</dd>
+            <dd>pedalinon@gmail.com</dd>
+        </dl>
+      </div>
+  </article>
 </footer>
-
+</div>
 <script src="jQuery/jquery-1.11.3.min.js"></script>
 <script  src="bootstrap/js/bootstrap.js"></script>
 </body>
