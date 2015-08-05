@@ -8,7 +8,7 @@ if(window.XMLHttpRequest) {
 	request = new ActiveXObect("Microsoft.XMLHTTP");
 }
 
-request.open('GET', 'json/section_1_images.json', true);
+request.open('GET', 'json/photo_images.json', true);
 request.onreadystatechange = function() {
 	if((request.status === 200) && (request.readyState === 4)) {
 		
@@ -19,11 +19,11 @@ request.onreadystatechange = function() {
 		var i = 0;		
 		function stepThrough() {
 		//section_2.innerHTML = "<h1>Hello World!</h1><br>" + "<h2>Here I Come</h2>";	
-		section_1.style.cssText = "background-image: url(" + img.img[i].url + ");";
+		photo_slide.style.cssText = "background-image: url(" + img.img[i].url + ");";
 		i += 1;
 			setInterval(function() {
 				if (i < img.img.length) {
-					section_1.style.cssText = "background-image: url(" + img.img[i].url + ");";			
+					photo_slide.style.cssText = "background-image: url(" + img.img[i].url + ");";			
 					console.log("Here");	
 					i += 1;	
 				} else {
