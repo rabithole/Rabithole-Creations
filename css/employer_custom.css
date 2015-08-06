@@ -25,6 +25,13 @@ h1 {
 	text-shadow: 3px 3px 3px #000;
 }
 
+@media (max-width: 1350px) {
+	#main_header {
+		margin-left: 1em;
+		font-size: 2.5em;
+	}
+}
+
 @media(max-width: 992px) {
 	h1 {
 		font-size: 2.5em;
@@ -38,17 +45,20 @@ h1 {
 
 @media (max-width: 768px) {
 	h1 {
-		font-size: 2em;
 		margin-left: 1em;
 		padding-top: 5px;
+	}
+	#main_header {
+		font-size: 2em;
+
 	}
 }
 
 #first_row {
 	background-color: rgba(50,50,100,1);
-	height: 150px;
-	margin-top: 12em;
-	margin-bottom: 3em;
+	height: ;
+	margin-top: 10em;
+	margin-bottom: ;
 }
 
 #second_row {
