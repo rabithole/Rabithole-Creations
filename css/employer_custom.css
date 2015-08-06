@@ -79,7 +79,6 @@ h1 {
 }
 
 .intro {
-	margin-top: ;
 	color: #ccc;
 	text-indent: 2em;
 	font-size: 1.1em;
@@ -87,8 +86,22 @@ h1 {
 
 dt {
 	font-size: 1.2em;
+	color: rgba(220,220,220,1);
+	border-bottom: 1px dotted #fff;
+	width: 230px;
+	margin-bottom: 10px;
+}
+
+#contact {
+	color: #000;
+	border-bottom: 1px solid #000;
 }
 
 dl {
 	color: #ccc;
+}
+
+#top_p {
+	font-size: 1.2em;
+	color: rgba(215,215,215,1);
 }
