@@ -1,7 +1,6 @@
 body {
 	background-color: #660000;
 	color: #ccc;
-	padding: 5em;
 }
 
 @media (max-width: 450px) {
@@ -33,10 +32,6 @@ header {
 
 .row {
 	margin: 0 2% 20px 0;
-}
-
-article {
-	margin: ;
 }
 
 .img-thumbnail {
@@ -89,16 +84,78 @@ li:hover {
 	height: 300px;
 }
 
+#jumbotron {
+	width: 100%;
+	height: 250px;
+	margin-top: 100px;
+	margin-bottom: -50px;
+	background-color: #000;
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+
+@media(max-width: 1100px) {
+	#jumbotron {
+		margin-top: 130px;
+	}
+}
+
 .jumbotron {
-	border: 2px solid #000;
+	
 }
 
 footer {
-	width: 108%;
-	margin-left: -68px;
+	position: absolute;
+	height: ;
+	width: 103%;
+	left: 0;
+	background: -o-linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
+	background: -moz-linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
+	background: -webkit-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
+	background: -webkit-linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
+	background: linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
+}
+
+/*
+#third_row {
+	height: 150px;
 	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
 	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
 	background: -webkit-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
 	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
+	background: linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
+	width: 100%;
+}
+*/
+
+/* Footer CSS */
+#contact {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+#third_row dl {
+	color: #000;
+}
+
+#bottom-col {
+	margin-bottom: 2em;
+}
+
+dt {
+	font-size: 1.2em;
+	width: 230px;
+}
+
+dl {
+	margin: 2em 0 2em 5em;
+}
+
+dd {
+	color: #ccc;
+}
+
+#contact {
+	color: #000;
+	border-bottom: 2px dotted #000;
 }

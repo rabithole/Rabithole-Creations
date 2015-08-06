@@ -1,8 +1,13 @@
 body {
 	background-color: rgba(50,50,100,1);
+	overflow-x: hidden; 
 }
 
 .navbar-default {
+	background: -o-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(40,131,204, .8) 80%, rgba(204,204,204, 1) 95%);
+	background: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(40,131,204, .8) 80%, rgba(204,204,204, 1) 95%);
+	background: -webkit-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(40,131,204, .8) 80%, rgba(204,204,204, 1) 95%);
+	background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(40,131,204, .8) 80%, rgba(204,204,204, 1) 95%);
 	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(40,131,204, .8) 80%, rgba(204,204,204, 1) 95%);
 }
 
@@ -74,14 +79,14 @@ h1 {
 	padding: 1em 5em 1em 15%;
 }
 
-#third_row dl {
-	color: #000;
-}
-
 .intro {
 	color: #ccc;
 	text-indent: 2em;
 	font-size: 1.1em;
+}
+
+dl {
+	color: #ccc;
 }
 
 dt {
@@ -92,16 +97,26 @@ dt {
 	margin-bottom: 10px;
 }
 
+#top_p {
+	font-size: 1.2em;
+	color: rgba(215,215,215,1);
+}
+
+#learning {
+	position: relative;
+	left: 5px;
+}
+
+/* Footer CSS */
 #contact {
 	color: #000;
 	border-bottom: 1px solid #000;
 }
 
-dl {
-	color: #ccc;
+footer {
+	
 }
 
-#top_p {
-	font-size: 1.2em;
-	color: rgba(215,215,215,1);
+#third_row dl {
+	color: #000;
 }
