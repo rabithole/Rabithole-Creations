@@ -92,3 +92,13 @@ li:hover {
 .jumbotron {
 	border: 2px solid #000;
 }
+
+footer {
+	width: 108%;
+	margin-left: -68px;
+	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
+	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
+	background: -webkit-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
+	background: linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
+}
