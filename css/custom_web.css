@@ -97,7 +97,7 @@ img {
 	padding-top: 2em;
 }
 
-footer {
+#third_row {
 	position: absolute;
 	height: ;
 	width: 103%;
@@ -128,3 +128,8 @@ dd {
 	color: #ccc;
 }
 
+.media_image {
+	width: 60px;
+	background-color: inherit;
+	margin-top: 2em;
+}

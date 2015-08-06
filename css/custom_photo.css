@@ -159,3 +159,10 @@ dd {
 	color: #000;
 	border-bottom: 2px dotted #000;
 }
+
+.media_image {
+	width: 60px;
+	background-color: inherit;
+	margin-top: 2em;
+}
+

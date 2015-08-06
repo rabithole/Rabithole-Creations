@@ -120,3 +120,9 @@ footer {
 #third_row dl {
 	color: #000;
 }
+
+.media_image {
+	width: 60px;
+	background-color: inherit;
+	margin-top: 2em;
+}
