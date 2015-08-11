@@ -1,9 +1,8 @@
 
 {
-"landingImage":[
-	{"url" : "images/backgrounds/camas_marina.jpg"},
+"img":[
+	{"url" : "images/landing_slide/wet_ride.jpg"},
 	{"url" : "images/backgrounds/cold_creek.jpg"},
 	{"url" : "images/backgrounds/starburst.jpg"},
-	{"url" : "images/backgrounds/st_helens.jpg"},
-	{"url" : "images/backgrounds/fort_stevens.jpg"}
+	{"url" : "images/landing_slide/hdr_sunset.jpg"}
 ]}

@@ -111,7 +111,7 @@
 			"file": "web_port.html",
 			"settings":
 			{
-				"buffer_size": 5732,
+				"buffer_size": 5736,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "photo.html",
 			"settings":
 			{
-				"buffer_size": 8226,
+				"buffer_size": 8243,
 				"line_ending": "Windows"
 			}
 		},
@@ -127,7 +127,7 @@
 			"file": "employer.html",
 			"settings":
 			{
-				"buffer_size": 6194,
+				"buffer_size": 6390,
 				"line_ending": "Windows"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4017,
+				"buffer_size": 4025,
 				"line_ending": "Windows"
 			}
 		},
@@ -340,13 +340,15 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 276.0
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 334.0,
 		"where_history":
 		[
+			"<open files>,<open files>",
+			"<open files>",
 			"",
 			"<open files>,C:\\Users\\Robert Kulp\\Desktop\\web_projects\\vista_park\\vista_park",
 			"<open files>",
@@ -358,6 +360,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<script>\n    window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script>",
+			"<script>\n    window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n    \n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script>",
+			"<script>\n	window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script>",
 			"img",
 			"row",
 			"container",
@@ -426,6 +431,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<!-- <script>\n	window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script> -->",
 			" <li>\n            <p>360-795-8605</p>\n            <br>\n            <a href=\"mailto:vistapark@vista-park.org\">vistapark@vista-park.org</a>\n           \n        </li>",
 			"<a href=\"http://countyline.vista-park.org/\" target=\"_blank\">County Line Park</a>",
 			"stopPropagation",
@@ -442,7 +448,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -451,49 +457,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5732,
+						"buffer_size": 5736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								809,
-								809
+								4589,
+								4589
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "photo.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								822,
-								822
-							]
-						],
-						"settings":
-						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -506,33 +483,65 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "employer.html",
+					"buffer": 1,
+					"file": "photo.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6194,
+						"buffer_size": 8243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								814,
-								814
+								5399,
+								5399
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1400.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "employer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4550,
+								4550
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1600.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -541,23 +550,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4017,
+						"buffer_size": 4025,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1043,
-								1043
+								2896,
+								2896
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 40.0,
+						"translation.y": 1000.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -582,8 +592,8 @@
 						"selection":
 						[
 							[
-								3597,
-								3597
+								3517,
+								3517
 							]
 						],
 						"settings":
@@ -593,7 +603,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3240.0,
+						"translation.y": 2884.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
