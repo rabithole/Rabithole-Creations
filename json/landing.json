@@ -2,7 +2,8 @@
 {
 "img":[
 	{"url" : "images/landing_slide/wet_ride.jpg"},
-	{"url" : "images/backgrounds/cold_creek.jpg"},
-	{"url" : "images/backgrounds/starburst.jpg"},
+	{"url" : "images/landing_slide/cold_creek.jpg"},
+	{"url" : "images/landing_slide/starburst.jpg"},
 	{"url" : "images/landing_slide/hdr_sunset.jpg"}
 ]}
+
