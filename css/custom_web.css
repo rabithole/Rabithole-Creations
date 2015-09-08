@@ -1,6 +1,15 @@
 body {
-	background-color: rgba(149,70,30,1);
+	background-image: url(../images/backgrounds/storm_clouds.jpg);
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: 100%;
+/*	background-color: rgba(149,70,30,1); */
 	color: #ccc;
+	opacity:;
+}
+
+.container-fluid {
+	background-color: rgba(149,70,30,.9);
 }
 
 header {
@@ -9,6 +18,11 @@ header {
 	width: 100%;
 	height: auto;
 	z-index: 5000;
+}
+
+article .img_a_width {
+	width: 410px;
+
 }
 
 .navbar-default {

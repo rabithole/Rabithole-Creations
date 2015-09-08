@@ -1,6 +1,10 @@
 body {
-	background-color: rgba(50,50,100,1);
+	background-image: url(../images/backgrounds/starburst.jpg);
 	overflow-x: hidden; 
+}
+
+.container-fluid {
+	background-color: rgba(50,50,100,.8);
 }
 
 .navbar-default {
@@ -23,6 +27,8 @@ body {
 }
 
 h1 {
+	position: relative;
+	top: 16px;
 	margin-left: 5em;
 	color: #ccc;
 	font-size: 3em;
@@ -60,21 +66,21 @@ h1 {
 }
 
 #first_row {
-	background-color: rgba(50,50,100,1);
+/*	background-color: rgba(50,50,100,1); */
 	height: ;
 	margin-top: 10em;
 	margin-bottom: ;
 }
 
 #second_row {
-	background-color: rgba(50,50,100,1);
+/*	background-color: rgba(50,50,100,1); */
 	height: auto;
 }
 
 #third_row {
 	border-top: 3px solid rgba(255,255,255, 1);
 	border-bottom: 3px solid rgba(255,255,255, 1);
-	background-color: rgba(204,204,204,.7);
+	background-color: rgba(204,204,204,.8); 
 	height: auto;
 	padding: 1em 5em 1em 15%;
 }
