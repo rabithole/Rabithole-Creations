@@ -81,7 +81,7 @@ h1 {
 	border-top: 3px solid rgba(255,255,255, 1);
 	border-bottom: 3px solid rgba(255,255,255, 1);
 	background-color: rgba(204,204,204,.8); 
-	height: auto;
+	height: 200px;
 	padding: 1em 5em 1em 15%;
 }
 
@@ -131,4 +131,9 @@ footer {
 	width: 60px;
 	background-color: inherit;
 	margin-top: 2em;
+}
+
+.dl_adjust {
+	position: relative;
+	top: -80px;
 }
