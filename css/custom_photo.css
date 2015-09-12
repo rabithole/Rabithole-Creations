@@ -3,91 +3,93 @@ body {
 	color: #ccc;
 }
 
-@media (max-width: 450px) {
-	body {
-		padding: 5em 1em;
-	}
-}
 
+
+/* Navigation and header */
 header {
-	position: fixed;
-	width: 100%;
-	top: 51px;
-	left: 0;
-	height: 80px;
+	width: 106%;
+	position: relative;
+	
 	background-color: rgba(145,7,12,.7);
 	background: -o-linear-gradient(to bottom,rgba(145, 7, 12, 1) 85%, rgba(255, 255, 255, .7));
 	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, 1) 85%, rgba(255, 255, 255, .7));
-	background: linear-gradient(to bottom, rgba(145, 7, 12, 1) 85%, rgba(255, 255, 255, .7));
+	background: linear-gradient(to bottom, rgba(145, 7, 12, 1) , rgba(255, 255, 255, .7) );
+	background: -webkit-gradient(to bottom, rgba(145, 7, 12, 1) , rgba(255, 255, 255, .7) );	
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, 1) , rgba(255, 255, 255, .7) );
+	border-bottom: 1px solid rgba(229, 187, 184, 1);
+}
+
+nav {
+	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .9) , rgba(125, 7, 12, .9) 70%,rgba(145, 7, 12, .4) 99%);
+	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .9) , rgba(125, 7, 12, .9) 70%,rgba(145, 7, 12, .4) 99%);
+	background: -webkit-gradient(to bottom, rgba(145, 7, 12, .9) , rgba(125, 7, 12, .9) 70%,rgba(145, 7, 12, .4) 99%);
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .9) , rgba(125, 7, 12, .9) 70%,rgba(145, 7, 12, .4) 99%);
+	background: linear-gradient(to bottom, rgba(145, 7, 12, .9) , rgba(125, 7, 12, .9) 70%,rgba(145, 7, 12, .4) 99%);
+	box-shadow: 1px 5px 5px #111;
+}
+
+.navbar {
+/*	border: 1px solid rgba(145, 7, 12, 1); */
+}
+
+section {
+	position: relative;
+	height: 50px;
+}
+
+a {
 	z-index: 1000;
-	background: -webkit-gradient(to bottom, rgba(145, 7, 12, 1) 85%, rgba(255, 255, 255, .7));	
-	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, 1) 85%, rgba(255, 255, 255, .7));
-	border-bottom: 1px solid rgb(229, 187, 184);
 }
 
 h1 {
-	margin-top: ;
-	margin-bottom: -7px;
-	color: #000;
-	font-weight: bold;
-	font-size: 3.5em;
-	text-shadow: 2px 2px 4px #fff;
+	position: relative;
+	top: 13px;
+	text-shadow: 3px 3px 3px #000;
+	margin-left: 1em;
+	font-size: 3.1em;
 }
 
 h5 {
 	position: relative;
-	top: 68px;
-	left: -20px;
-	color: #fff;
+	top: 5px;
+	margin-left: 32em;
 }
-/*
-@media(max-width: 1350px) {
-	h5 {
-		margin-top: 45px;
-	}
+
+ul {
+	padding-right: 10em;
 }
-*/
-@media(max-width: 1350px) {
-	h1 {
-		margin-top: -10px;
-		margin-bottom: -10px;
-	}
-	h5 {
-		position: relative;
-		top: 78px;
-		left: 550px;
+
+li:hover {
+	background-color: #660000;
+	border-radius: 15px;
+}
+
+#collapse a {
+	color: #ccc;
+	font-size: 1.8em;
+}
+
+@media(max-width: 1100px) {
+	section {
+		height: ;
+		clear: both;
 	}
 }
 
-@media(max-width: 500px) {
+@media(max-width: 450px) {
 	h1 {
-		margin-top: -30px;
-		margin-bottom: -30px;
+		position: relative;
+		top: -34px;
 	}
 	h5 {
-		position: relative;
-		top: 35px;
-		left: 280px;
+		margin-left: 200px;
+		top: -35px;
 	}
-}
 
-@media(max-width: 400px) {
-	h1 {
-		font-size: 2.5em;
-		margin-top: -30px;
-		margin-bottom: -30px;
-	}
-	h5 {
-		position: relative;
-		top: 28px;
-		left: 220px;
-	}
 }
+/* Navigation and header */
 
-#main_header {
-	float: left;
-	margin-left: 1em;
-}
+
 
 .row {
 	margin: 0 2% 20px 0;
@@ -104,45 +106,6 @@ h5 {
 	margin-top: 100px;
 }
 
-nav {
-	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: -webkit-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-}
-
-.navbar {
-	border: none;
-}
-
-ul {
-	position: relative;
-	right: 5em;
-}
-
-@media (max-width: 770px) {
-	ul {
-		position: relative;
-		right: 0em;
-	}
-}
-
-li:hover {
-	background-color: #660000;
-	border-radius: 15px;
-}
-
-#collapse a {
-	color: #ccc;
-	font-size: 1.5em;
-}
-
-#collapse li {
-	position: relative;
-	padding-left: 60px;
-}
-
 #photo_slide {
 	width: 400px;
 	height: 300px;
@@ -155,6 +118,12 @@ li:hover {
 	border: 3px solid #000;
 	border-radius: 15px;
 	background-color: #000;
+}
+
+@media(max-width: 450px) {
+	#carousel-example-generic {
+		margin-top: 12em;
+	}
 }
 
 .carousel-inner {
@@ -195,18 +164,6 @@ footer {
 	background: -webkit-linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
 	background: linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
 }
-
-/*
-#third_row {
-	height: 150px;
-	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: -webkit-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, 1) 80%, rgba(145, 7, 12, .4) );
-	background: linear-gradient(to bottom, rgba(255,255,255,.7) , rgba(145, 7, 12, .4), rgba(145, 7, 12, 1) 80%);
-	width: 100%;
-}
-*/
 
 /* Footer CSS */
 #contact {
