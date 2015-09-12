@@ -3,7 +3,7 @@ body {
 	position: relative;
 	background-color: rgba(0, 42, 255, 1); 
 	background-image: url(../images/backgrounds/fort_stevens.jpg);
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	margin: 0;
@@ -87,6 +87,15 @@ h2 {
 	font-size: 4.5em;
 }
 
+@media(max-width: 1000px) {
+	#cus_web_h1 {
+		font-size: 3.5em;
+		top: 30%;
+		left: -100px;
+	}
+
+}
+
 /* Photo h1 */
 #land_photo_h1 {
 	font-size: 4.5em;
@@ -151,10 +160,10 @@ section {
 }
 
 #section_2 {
-	height: 1000px;
+	height: auto;
 	background-color: rgba(100, 100, 100, 1);
 	background-image: url(../images/backgrounds/under_bridge.jpg); 
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	border-top: 2px solid #fff;
