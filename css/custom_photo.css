@@ -40,8 +40,14 @@ h5 {
 	left: -20px;
 	color: #fff;
 }
-
-@media(max-width: 1050px) {
+/*
+@media(max-width: 1350px) {
+	h5 {
+		margin-top: 45px;
+	}
+}
+*/
+@media(max-width: 1350px) {
 	h1 {
 		margin-top: -10px;
 		margin-bottom: -10px;
@@ -130,6 +136,11 @@ li:hover {
 #collapse a {
 	color: #ccc;
 	font-size: 1.5em;
+}
+
+#collapse li {
+	position: relative;
+	padding-left: 60px;
 }
 
 #photo_slide {

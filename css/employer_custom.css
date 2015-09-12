@@ -17,13 +17,21 @@ body {
 
 #collapse a {
 	color: #fff;
-	margin-right: 1em;
 	font-size: 1.5em;
-	margin-top: 8px;
+}
+
+ul {
+	position: relative;
+	right: 5em;
 }
 
 #collapse a:hover {
 	color: #000;
+}
+
+#collapse li {
+	position: relative;
+	padding-left: 60px;
 }
 
 h1 {
@@ -119,8 +127,12 @@ dt {
 	border-bottom: 1px solid #000;
 }
 
-footer {
-	
+footer a {
+	position: relative;
+	float: left;
+	width: 25px;
+	margin-left: 30px;
+	bottom: 30px;
 }
 
 #third_row dl {
@@ -136,4 +148,11 @@ footer {
 .dl_adjust {
 	position: relative;
 	top: -80px;
+}
+
+@media(max-width: 1300px) {
+	.dl_adjust {
+		position: relative;
+		top: 0;
+	}
 }
