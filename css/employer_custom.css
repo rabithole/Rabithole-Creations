@@ -48,6 +48,7 @@ h1 {
 	#main_header {
 		margin-left: 1em;
 		font-size: 2.5em;
+		clear: both;
 	}
 }
 
@@ -68,7 +69,7 @@ h1 {
 		padding-top: 5px;
 	}
 	#main_header {
-		font-size: 2em;
+		font-size: 2.5em;
 
 	}
 }
@@ -114,6 +115,13 @@ dt {
 #top_p {
 	font-size: 1.2em;
 	color: rgba(215,215,215,1);
+}
+
+@media(max-width: 768px) {
+	#top_p {
+		position: relative;
+		top: 60px;
+	}
 }
 
 #learning {
