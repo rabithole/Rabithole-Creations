@@ -8,9 +8,13 @@
 <script src="jQuery/jquery-1.11.3.min.js"></script>
 <!-- <script src="scripts/navCss.js"></script> -->
 <link href="css/nav.css" rel="stylesheet"> <!-- Initial nav stylesheet -->
-<script src="scripts/responsive.js"></script> <!-- Sets stylesheet by screen size -->
+<!-- <script src="scripts/responsive.js"></script> --> <!-- Sets stylesheet by screen size -->
 <link href="css/animated.css" rel="stylesheet"> <!-- Stylesheet animation for nav and header elements -->
 <link href="css/footer.css" rel="stylesheet">
+<link rel='stylesheet' media='screen and (max-width: 440px)' href='css/mobile.css'> 
+<link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/pad.css'> 
+<link rel='stylesheet' media='screen and (min-width: 900px) and (max-width: 1300px)' href='css/lap_top.css'>
+<link rel='stylesheet' media='screen and (min-width: 1301px)' href='css/rabit_2.css'>  
 
 <!-- <script>
 	window.onload = alert("This site is under construction. Components of this site are not yet functioning.");
@@ -24,6 +28,15 @@
   ga('create', 'UA-52448677-1', 'auto');
   ga('send', 'pageview');
 </script> --> 
+
+<script>
+	window.onload = Init;
+	function Init() 
+	{
+		var x = screen.width; 
+		console.log(x);
+	}
+</script>
 
 
 </head>

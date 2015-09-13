@@ -182,14 +182,14 @@ section {
 }
 
 #h1_1_5 {
-	font-size: 3.8em;
+	font-size: 3em;
 	text-shadow: 5px 5px 5px #999;
 }
 
 #p_1_5 {
 	color: #fff;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	font-weight: bold;
 	letter-spacing: .2em;
 }
@@ -197,7 +197,7 @@ section {
 #section_2 {
 	background-color: rgba(100, 100, 100, 1);
 	background-image: url(../images/backgrounds/under_bridge.jpg); 
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: top;
 	background-repeat: no-repeat;
 	border-top: 2px solid #fff;
@@ -212,7 +212,7 @@ section {
 	padding: 5px;
 	background-color: rgba(245, 240, 240,1);
 	border-radius: 15px;
-	margin: 0 5% 2% 5%;
+	margin: 0 2% 2% 2%;
 	border: 5px solid #000;
 }
 
