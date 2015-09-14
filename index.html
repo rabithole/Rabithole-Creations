@@ -11,10 +11,16 @@
 <!-- <script src="scripts/responsive.js"></script> --> <!-- Sets stylesheet by screen size -->
 <link href="css/animated.css" rel="stylesheet"> <!-- Stylesheet animation for nav and header elements -->
 <link href="css/footer.css" rel="stylesheet">
-<link rel='stylesheet' media='screen and (max-width: 440px)' href='css/mobile.css'> 
-<link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/pad.css'> 
-<link rel='stylesheet' media='screen and (min-width: 900px) and (max-width: 1300px)' href='css/lap_top.css'>
-<link rel='stylesheet' media='screen and (min-width: 1301px)' href='css/rabit_2.css'>  
+
+<link rel='stylesheet' media='screen and (max-width: 749px)' href='css/mobile.css'>
+<link rel='stylesheet' media='screen and (max-width: 749px) and (orientation: landscape)' href='css/landscape_mobile.css'>  
+
+<link rel='stylesheet' media='screen and (min-width: 750px) and (max-width: 1300px)' href='css/pad.css'> 
+<link rel='stylesheet' media='screen and (orientation: portrait) and (min-width: 759px)' href='css/portrait_pad.css'>
+
+<link rel='stylesheet' media='screen and (min-width: 1301px) and (max-width: 1860px)' href='css/lap_top.css'>
+
+<link rel='stylesheet' media='screen and (min-width: 1861px)' href='css/rabit_2.css'>  
 
 <!-- <script>
 	window.onload = alert("This site is under construction. Components of this site are not yet functioning.");
@@ -29,22 +35,13 @@
   ga('send', 'pageview');
 </script> --> 
 
-<script>
-	window.onload = Init;
-	function Init() 
-	{
-		var x = screen.width; 
-		console.log(x);
-	}
-</script>
-
 
 </head>
 <body>
 
 <header> 
 	<h1 id="main_title">Rabithole Creations</h1>
-	<img src="images/backgrounds/rabithole_logo.png" class="logoImage">
+	
 	<div id="media_links">
 		<a href="https://www.linkedin.com/pub/robert-kulp/a3/608/489" target="blank" class="media">
 			<img src="images/social_media/linkedin-cracked.png" class="media_links">
@@ -61,21 +58,25 @@
 
 
 
-<div id="nav_pos_ie">
-	<nav  id="clickNav">
-		<ul>
-	    	<a href="http://www.rabithole.com/"><li>Home</li></a>
-	        <a href="web_port.html"><li>Web Portfolio</li></a>
-	        <a href="photo.html"><li>Photography</li></a>
-	        <a href="employer.html"><li>Employers</li></a>
-	        <a href="#"><li>Clients</li></a>
-	    </ul>
-	</nav>
-</div>
-<section id="section_1">
-	<h1 id="cus_web_h1">Custom Websites<br>&amp; Photography</h1>	
-</section>
+<div id="section_1_wrapper">
+	<div id="section_1_upper">
+		<img src="images/backgrounds/fort_stevens.jpg">
+		<img src="images/backgrounds/rabithole_logo.png" class="logoImage">
+		<nav  id="clickNav">
+			<ul>
+		    	<a href="http://www.rabithole.com/"><li>Home</li></a>
+		        <a href="web_port.html"><li>Web Portfolio</li></a>
+		        <a href="photo.html"><li>Photography</li></a>
+		        <a href="employer.html"><li>Employers</li></a>
+		        <a href="#"><li>Clients</li></a>
+		    </ul>
+		</nav>
 
+	</div>
+	<section id="section_1">
+		<h1 id="cus_web_h1">Custom Websites<br>&amp; Photography</h1>	
+	</section>
+</div>
 
 <section id="section_1_5">
 	<h1 id="h1_1_5">Website Consulting and Creation</h1>
@@ -84,19 +85,23 @@
 
 
 <section id="section_2">
-	<h1 id="land_photo_h1">Robert Kulp Photography</h1>
-
-	<p id="section_2_photos">
-		<img src="images/large/anna_best_large.jpg" id="main_1st_slide">
-		<img src="images/large/farm_mist_large.jpg" id="main_page_slide">
-		<img src="images/landing_slide/marina_night.jpg">
-	</p>
-		<a href="photo.html" id="photo_p">To see more of my photography, follow this link.</a>
-	<p>	
-		<img src="images/landing_slide/under_bridge.jpg">
-		<img src="images/landing_slide/farmer_chyann.jpg">
-		<img src="images/landing_slide/love_on_the_beach.jpg">
-	</p>
+	<div id="section_2_upper">
+		<img src="images/backgrounds/under_bridge.jpg" id="background_2">
+		<h1 id="land_photo_h1">Robert Kulp Photography</h1>
+		<div id="center_photos">
+			<p id="section_2_photos">
+				<img src="images/large/anna_best_large.jpg" id="main_1st_slide">
+				<img src="images/large/farm_mist_large.jpg" id="main_page_slide">
+				<img src="images/landing_slide/marina_night.jpg">
+			</p>
+				<a href="photo.html" id="photo_p">To see more of my photography, follow this link.</a>
+			<p>	
+				<img src="images/landing_slide/under_bridge.jpg">
+				<img src="images/landing_slide/farmer_chyann.jpg">
+				<img src="images/landing_slide/love_on_the_beach.jpg">
+			</p>
+		</div>
+	</div>
 </section>
 
 <footer>
