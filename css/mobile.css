@@ -8,66 +8,6 @@ body {
 	height: auto;
 }
 
-header {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	height: 70px;
-	background-color: rgba(145,7,12,.7);
-	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
-	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
-	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
-	background: linear-gradient(to bottom, rgba(145, 7, 12, .2), rgba(145, 7, 12, 1));
-	z-index: 1000;	
-	border-bottom: 2px solid #ccc;
-}
-
-#media_links {
-	position: absolute;
-	top: 12%;
-	left: 5%;
-}
-
-.media_links {
-	width: 10%;
-	float: left;
-	margin-right: 5px;
-}
-
-h1 {
-	text-align: ;
-	font-size: ;
-	margin: ;
-	color: rgba(255,255,255,.8);
-	text-shadow: 5px 5px 5px #000;
-	letter-spacing: .2em;
-}
-
-#main_title {
-	position: relative;
-	text-align: right;
-	margin: 0 10% 0 0;
-	font-size: 1.5em;
-	top: 10px;
-	width: auto;
-}
-
-h2 {
-	text-align: center;
-	font-size: ;
-	color: rgba(255,255,255,.8);
-	text-shadow: 5px 5px 5px #000;
-	letter-spacing: .2em;
-}
-
-#cus_web_photo {
-	position: relative;
-	top: 15%;
-	left: auto;
-	font-size: 2.5em;
-}
-
 /* Main Navigation */
 nav {
 	position: fixed;
@@ -105,40 +45,116 @@ nav a {
 }
 /* MAIN NAVIGATION */
 
-section {
-	position: relative;
+
+
+header {
+	position: fixed;
 	width: 100%;
-/*	background-color: rgba(255,255,255,1); */
-	z-index: 500;
+	top: 0;
+	left: 0;
+	height: 70px;
+	background-color: rgba(145,7,12,.7);
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: linear-gradient(to bottom, rgba(145, 7, 12, .5), rgba(145, 7, 12, 1), rgba(200, 200, 200, .8));
+	z-index: 1000;	
+	border-bottom: 1px solid #ccc;
+}
+
+#media_links {
+	position: absolute;
+	top: 12%;
+	left: 5%;
+}
+
+.media_links {
+	width: 10%;
+	float: left;
+	margin-right: 5px;
+}
+
+@media(min-width: 600px) {
+	.media_links {
+		width: 8%;
+	}
+}
+
+h1 {
+	text-align: ;
+	font-size: ;
+	margin: ;
+	color: rgba(255,255,255,.8);
+	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .2em;
+}
+
+#main_title {
+	position: ;
+	text-align: right;
+	float: right;
+	margin-right: 3%;
+	font-size: 1.5em;
+	top: ;
+	width: 60%;
+}
+
+@media(max-width: 500px) {
+	#main_title {
+		margin-right: 15%;
+	}
+}
+
+h2 {
+	text-align: center;
+	font-size: ;
+	color: rgba(255,255,255,.8);
+	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .2em;
 }
 
 
 /* Section One Housing */
 #section_1_wrapper {
 	position: relative;
-	top: 70px;
-	border: 1px solid #fff;
+	top: ;
+	height: ;
+	background-size:  100%;
 }
 
-#section_1_wrapper img {
-	position: relative;
+#section_1 img {
 	width: 100%;
-	border: 1px solid #fff;
 }
+
+/*
+#section_1_wrapper {
+	background-image: url(../images/backgrounds/fort_stevens.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+*/
 
 #cus_web_h1 {
 	position: relative;
-	top: -130px;
+	top: -160px;
 	font-size: 2em;
 	text-align: center;
+}
+
+@media(max-width: 338px) {
+	#cus_web_h1 {
+		font-size: 1.5em;
+		top: -130px;
+	}
 }
 
 #section_1_wrapper .logoImage {
 	position: absolute;
 	width: 35%;
-	padding: 70px 0 0 0;
-	top: -55px;
+	padding: 0;
+	top: ;
 	left: 10%;
+	z-index: 100;
 }
 /* Section One Housing */
 
@@ -148,8 +164,9 @@ section {
 	position: relative;
 	background-color: rgb(227,224,223);
 	background-color: rgba(10, 10, 10, .6);
-	z-index: 2000;
-	top: 70px;
+	z-index: ;
+	top: -120px;
+	display: ;
 }
 
 #h1_1_5 {
@@ -167,15 +184,15 @@ section {
 	letter-spacing: .2em;
 	margin: 5% 8% 1% 8%;
 }
-/* Sewction 1.5 bottome */
+/* Sewction 1.5 bottom */
 
 
 /* Section 2 housing */
 #section_2 {
 	display: ;
 	position: relative;
-	top: 70px;
-	height: auto;
+	top: -121px;
+	height: ;
 	background-color: rgba(100, 100, 100, 1);
 /*	background-image: url(../images/backgrounds/under_bridge.jpg); */
 	border-top: 2px solid #fff;
@@ -236,15 +253,10 @@ section #background_2 {
 	color: #fff;
 }
 
-footer {
-	position: relative;
-	top: ;
-}
-
 .clearfix {
-	width: 100%;
-	clear: both;
-
+	display: inline-block;
+	position: ;
+	height: 67px;
 }
 
 form {
