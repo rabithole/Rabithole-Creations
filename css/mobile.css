@@ -1,55 +1,16 @@
 /* Less 440 pixels */
 body {
 	position: relative;
-	background-color: #000;
+	background: linear-gradient(to bottom, rgba(136, 102, 21, 1) 1%, rgba(0,0,0,1) 1%, rgba(0, 0, 0, 1) 99%);
 	margin: 0;
 	font-size: 100%;
 	overflow-x: hidden;
 	height: auto;
 }
 
-/* Main Navigation */
-nav {
-	position: fixed;
-	top: 3%;
-	right: 2em;
-	z-index: 10000;
-	width: ;
-}
-
-nav li {
-	width: 250px;
-	float: ;
-	background-color: rgba(0, 42, 255, 1);
-	background-color: rgba(140, 100, 20, 1);
-	background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
-	background: -o-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
-	background: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%); 
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);
-	margin-bottom: 0;
-	height: 35px;
-	padding: 8px 5px 8px 5px;
-	list-style: none;
-	text-align: center;
-	border-radius: 5px; 
-	letter-spacing: 4px;
-}
-
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-	position: relative;	
-	font-size: 1.9em;
-	display: none;
-}
-/* MAIN NAVIGATION */
-
-
-
 header {
 	position: fixed;
-	width: 100%;
+	width: 100%; 
 	top: 0;
 	left: 0;
 	height: 70px;
@@ -57,15 +18,15 @@ header {
 	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
-	background: linear-gradient(to bottom, rgba(145, 7, 12, .5), rgba(145, 7, 12, 1), rgba(200, 200, 200, .8));
+	background: linear-gradient(to bottom, rgba(145, 7, 12, .5) 5%, rgba(145, 7, 12, 1) 30%, rgba(200, 200, 200, .7) 60%, rgba(200, 200, 200, .8), rgba(136, 102, 21, 1) 99%);
 	z-index: 1000;	
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid rgba(170,170,170,1);
 }
 
 #media_links {
 	position: absolute;
 	top: 12%;
-	left: 5%;
+	left: 5%;%
 }
 
 .media_links {
@@ -162,6 +123,7 @@ h2 {
 /* Section 1.5 */
 #section_1_5 {
 	position: relative;
+	padding-bottom: 10px;
 	background-color: rgb(227,224,223);
 	background-color: rgba(10, 10, 10, .6);
 	z-index: ;
@@ -195,8 +157,8 @@ h2 {
 	height: ;
 	background-color: rgba(100, 100, 100, 1);
 /*	background-image: url(../images/backgrounds/under_bridge.jpg); */
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 #photo_p {

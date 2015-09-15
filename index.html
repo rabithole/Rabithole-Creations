@@ -7,12 +7,13 @@
 
 <script src="jQuery/jquery-1.11.3.min.js"></script>
 <!-- <script src="scripts/navCss.js"></script> -->
-<link href="css/nav.css" rel="stylesheet"> <!-- Initial nav stylesheet -->
+<!-- <link href="css/nav.css" rel="stylesheet"> --><!-- Initial nav stylesheet -->
 <!-- <script src="scripts/responsive.js"></script> --> <!-- Sets stylesheet by screen size -->
 <!-- <link href="css/animated.css" rel="stylesheet"> --><!-- Stylesheet animation for nav and header elements -->
 <link href="css/footer.css" rel="stylesheet">
 
 <link rel='stylesheet' media='screen and (max-width: 749px)' href='css/mobile.css'>
+<link rel='stylesheet' media='screen and (max-width: 749px)' href='css/mobile_nav.css'>
 <link rel='stylesheet' media='screen and (max-width: 749px) and (orientation: landscape)' href='css/landscape_mobile.css'>  
 
 <link rel='stylesheet' media='screen and (min-width: 750px) and (max-width: 1300px)' href='css/pad.css'> 
@@ -62,17 +63,26 @@
 		<div id="section_1">
 			<img src="images/backgrounds/rabithole_logo.png" class="logoImage">
 			<img src="images/backgrounds/fort_stevens.jpg">
-			<!--
-			<nav  id="clickNav">
+			
+			<div  id="clickNav">
 				<ul>
-			    	<a href="http://www.rabithole.com/"><li>Home</li></a>
+			    	<li>Home</li>
+			        <li>Web Portfolio</li>
+			        <li>Photography</li>
+			        <li>Employers</li>
+			        <li>Clients</li>
+			    </ul>
+			</div>
+			<nav  id="mobile_nav">
+				<ul>
+					<a href="http://www.rabithole.com/"><li>Home</li></a>
 			        <a href="web_port.html"><li>Web Portfolio</li></a>
 			        <a href="photo.html"><li>Photography</li></a>
 			        <a href="employer.html"><li>Employers</li></a>
 			        <a href="#"><li>Clients</li></a>
 			    </ul>
 			</nav>
-			-->
+			
 			<h1 id="cus_web_h1">Custom Websites<br>&amp; Photography</h1>
 		</div>
 		
@@ -136,5 +146,6 @@
 <!-- <script src="scripts/scrolling.js"></script> --> <!-- Creates collapsable nav and header elements -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="scripts/photo_slideshow.js"></script>
+<script src="scripts/mobile_nav_animation.js"></script>
 </body>
 </html>
