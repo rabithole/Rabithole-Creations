@@ -17,8 +17,10 @@ $(document).ready(function() {
 	});
 
 	// Top of page animations for everything but mobile. 
-	$(window).scroll(function() {
+	$(window).scroll(function(e) {
 		//alert("clicked");
+		
+
 		if($(this).scrollTop() > 100) {
 			$("ul").animate({
 			 	width: "50px",
@@ -27,6 +29,15 @@ $(document).ready(function() {
 
 			$("li").animate({
 				marginTop: "0px",
+			});
+
+			$("header").animate({
+				height: "20px",
+				fontSize: ".2em",
+			});
+
+			$("#media_links").animate({
+				width: "20%",
 			});
 
 			$("a").click(function(event) {
@@ -39,9 +50,19 @@ $(document).ready(function() {
 			 	width: "230px",
 			 	fontSize: "1em",
 			 });
+
 			$("li").animate({
 				marginTop: "5px",
-			});	
+			});
+
+			$("header").animate({
+				height: "70px",
+				fontSize: "1em",
+			});
+
+			$("#media_links").animate({
+				width: "64%",
+			});
 		} 
 	});
 });
