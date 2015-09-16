@@ -5,7 +5,7 @@
 	list-style: none;
 	background-color: rgba(0, 0, 0, 1);
 	height: 2px;
-	width: 1px;
+	width: 10px;
 	font-size: 0em;
 	animation-name: navScroll;
 	animation-duration: 1s;
