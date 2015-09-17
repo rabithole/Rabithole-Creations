@@ -42,7 +42,7 @@ header {
 #media_links {
 	position: absolute;
 	top: 12%;
-	left: 15%;%
+	left: 5%;
 }
 
 .media_links {
@@ -103,7 +103,7 @@ h2 {
 
 #cus_web_h1 {
 	position: relative;
-	top: -350px;
+	top: -450px;
 	font-size: 4em;
 	text-align: center;
 }
@@ -112,6 +112,18 @@ h2 {
 	#cus_web_h1 {
 		top: -250px;
 		top: -130px;
+	}
+}
+
+@media(min-width: 1500px) {
+	#cus_web_h1 {
+		top: -550px;
+	}
+}
+
+@media(min-width: 1700px) {
+	#cus_web_h1 {
+		top: -600px;
 	}
 }
 

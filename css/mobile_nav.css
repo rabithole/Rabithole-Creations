@@ -9,7 +9,13 @@
 	top: 10%;
 	right: 2em;
 	z-index: 100;
-	
+}
+
+@media(orientation: landscape) {
+	#clickNav ul {
+		top: 20%;
+		right: 4em;
+	}
 }
 
 #clickNav li {
