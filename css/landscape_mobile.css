@@ -1,33 +1,16 @@
 /* Less 440 pixels */
 body {
 	position: relative;
-	background: linear-gradient(to bottom, rgba(136, 102, 21, 1) 1%, rgba(0,0,0,1) 1%, rgba(0, 0, 0, 1) 99%);
+	background-color: #000;
 	margin: 0;
 	font-size: 100%;
 	overflow-x: hidden;
 	height: auto;
 }
 
-button {
-	position: relative;
-	top: 50px;
-	left: 300px;
-	z-index: 10000;
-}
-
-#main_title {
-	position: ;
-	text-align: right;
-	float: right;
-	margin-right: 3%;
-	font-size: 2.5em;
-	top: ;
-	width: ;
-}
-
 header {
 	position: fixed;
-	width: 100%; 
+	width: 100%;
 	top: 0;
 	left: 0;
 	height: 70px;
@@ -35,15 +18,15 @@ header {
 	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
-	background: linear-gradient(to bottom, rgba(145, 7, 12, .5) 5%, rgba(145, 7, 12, 1) 30%, rgba(200, 200, 200, .7) 60%, rgba(200, 200, 200, .8), rgba(136, 102, 21, 1) 99%);
+	background: linear-gradient(to bottom, rgba(145, 7, 12, .5), rgba(145, 7, 12, 1), rgba(200, 200, 200, .8));
 	z-index: 1000;	
-	border-bottom: 1px solid rgba(170,170,170,1);
+	border-bottom: 1px solid #ccc;
 }
 
 #media_links {
 	position: absolute;
 	top: 12%;
-	left: 5%;%
+	left: 5%;
 }
 
 .media_links {
@@ -65,6 +48,16 @@ h1 {
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
 	letter-spacing: .2em;
+}
+
+#main_title {
+	position: ;
+	text-align: right;
+	float: right;
+	margin-right: 3%;
+	font-size: 1.5em;
+	top: ;
+	width: 60%;
 }
 
 @media(max-width: 500px) {
@@ -104,14 +97,14 @@ h2 {
 
 #cus_web_h1 {
 	position: relative;
-	top: -350px;
-	font-size: 4em;
+	top: -160px;
+	font-size: 2em;
 	text-align: center;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 338px) {
 	#cus_web_h1 {
-		top: -250px;
+		font-size: 1.5em;
 		top: -130px;
 	}
 }
@@ -130,7 +123,6 @@ h2 {
 /* Section 1.5 */
 #section_1_5 {
 	position: relative;
-	padding-bottom: 10px;
 	background-color: rgb(227,224,223);
 	background-color: rgba(10, 10, 10, .6);
 	z-index: ;
@@ -139,7 +131,7 @@ h2 {
 }
 
 #h1_1_5 {
-	font-size: 3em;
+	font-size: 1.5em;
 	text-shadow: 5px 5px 5px #999;
 	margin: 1% 6% 0 6%;
 	text-align: center;
@@ -148,7 +140,7 @@ h2 {
 #p_1_5 {
 	color: #fff;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: bold;
 	letter-spacing: .2em;
 	margin: 5% 8% 1% 8%;
@@ -164,8 +156,8 @@ h2 {
 	height: ;
 	background-color: rgba(100, 100, 100, 1);
 /*	background-image: url(../images/backgrounds/under_bridge.jpg); */
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 }
 
 #photo_p {
@@ -174,7 +166,7 @@ h2 {
 	text-decoration: none;
 	margin-left: 15%;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: ;
 }
 
 #section_2 p {
@@ -215,7 +207,7 @@ section #background_2 {
 /* Photo h1 */
 #land_photo_h1 {
 	position: relative;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	text-align: center;
 	top: ;
 	z-index: 1000;

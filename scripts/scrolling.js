@@ -14,7 +14,7 @@ $(window).scroll(function(event) {
 
 	var x = screen.width;
 
-	if(x < 441) {
+	if(x < 750) {
 		return;
 	}
 
