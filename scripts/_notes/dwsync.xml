@@ -19,9 +19,13 @@
 <file name="index_1.js" server="ftp.rabithole.com//public_html/" local="130825795378690682" remote="130829617200000000" Dst="2" />
 <file name="index_2.js" server="ftp.rabithole.com//public_html/" local="130825795378740720" remote="130829617200000000" Dst="2" />
 <file name="landing_slide.js" server="ftp.rabithole.com//public_html/" local="130825795378945722" remote="130829617200000000" Dst="2" />
-<file name="photo_slideshow.js" server="ftp.rabithole.com//public_html/" local="130838058745157009" remote="130838121000000000" Dst="2" />
-<file name="remove_animation.js" server="ftp.rabithole.com//public_html/" local="130825795379101985" remote="130829617200000000" Dst="2" />
-<file name="responsive.js" server="ftp.rabithole.com//public_html/" local="130825795379101985" remote="130829617200000000" Dst="2" />
+<file name="photo_slideshow.js" server="ftp.rabithole.com//public_html/" local="130865621561110775" remote="130869921600000000" Dst="2" />
+<file name="remove_animation.js" server="ftp.rabithole.com//public_html/" local="130864153646811326" remote="130869921600000000" Dst="2" />
+<file name="responsive.js" server="ftp.rabithole.com//public_html/" local="130864153646841332" remote="130869921600000000" Dst="2" />
 <file name="script.js" server="ftp.rabithole.com//public_html/" local="130825795380069700" remote="130829617200000000" Dst="2" />
-<file name="scrolling.js" server="ftp.rabithole.com//public_html/" local="130825795380089687" remote="130829617200000000" Dst="2" />
+<file name="scrolling.js" server="ftp.rabithole.com//public_html/" local="130869878778586719" remote="130869921600000000" Dst="2" />
+<file name="mobileNavExpander.js" server="ftp.rabithole.com//public_html/" local="130869878778566722" remote="130869921600000000" Dst="2" />
+<file name="mobile_nav_animation.js" server="ftp.rabithole.com//public_html/" local="130869878778566722" remote="130869921600000000" Dst="2" />
+<file name="angular.min.js" server="ftp.rabithole.com//public_html/" local="130869878778546720" remote="130869921600000000" Dst="2" />
+<file name="navAnimation.js" server="ftp.rabithole.com//public_html/" local="130869878778576721" remote="130869921600000000" Dst="2" />
 </dwsync>
