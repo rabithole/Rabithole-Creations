@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	// Mobile navigation expanding 
+
 	$("#clickNav").click(function() {
 		$("#mobile_nav").fadeToggle();
 	});
@@ -17,11 +18,18 @@ $(document).ready(function() {
 	});
 
 	// Top of page animations for everything but mobile. 
+	var x = screen.width;
+if(x < 750) {
+	return;
+}
 	$(window).scroll(function(e) {
 		//alert("clicked");
+
+		var scroll = $(window).scrollTop();
+		console.log(scroll);
 		
 
-		if($(this).scrollTop() > 100) {
+		if(scroll > 100) {
 			$("ul").animate({
 			 	width: "50px",
 			 	fontSize: "0em",
@@ -45,7 +53,7 @@ $(document).ready(function() {
 			});
 		}
 		
-		if($(this).scrollTop() < 100) {
+		if(scroll < 100) {
 			$("ul").animate({
 			 	width: "230px",
 			 	fontSize: "1em",
