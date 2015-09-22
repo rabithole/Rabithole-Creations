@@ -83,12 +83,14 @@ $(document).ready(function() {
 					width: "64%"
 				});
 
+				$("a").unbind('click');
+
 				if(x > 751) {
 					$("#media_links").animate({
 						width: "40%"
 					});				
 				}
 			} 		
-		}, 200);   			
+		}, 500);   			
 	});
 });
