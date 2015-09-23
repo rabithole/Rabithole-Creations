@@ -87,7 +87,7 @@ $(document).ready(function() {
 
 				if(x > 751) {
 					$("#media_links").animate({
-						width: "40%"
+						width: "34%"
 					});				
 				}
 			} 		
