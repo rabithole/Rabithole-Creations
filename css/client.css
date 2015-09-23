@@ -26,20 +26,24 @@ header {
 	border-bottom: 1px solid rgba(170,170,170,1);
 }
 
+#fill_div {
+	height: 110px;
+}
+
 #media_links {
-	position: absolute;
+	position: relative;
 	top: 12%;
 	left: 5%;
 }
 
 .media_links {
-	width: 10%;
+	width: 70px;
 	float: left;
 	margin-right: 5px;
 }
 
 #main_title {
-	position: relative;
+	position: ;
 	text-align: right;
 	float: right;
 	margin-right: 5%;
@@ -53,76 +57,73 @@ header {
 
 
 /* Top section elements */
-article {
-	position: relative;
-	top: 20px;
+#section_1 {
+	margin: ;
+	position: ;
+	top: ;
 	height: 800px;
-	background-color: rgba(250,250,250,.9);
+	background-color: rgba(250,250,250,.8);
+	overflow: hidden;
 }
 
-#article_title {
-	position: relative;
-	top: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: ;
+#sec_1_h1 {
+	position: ;
+	top: ;
+	font-size: 5em;
+	letter-spacing: .5em;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	padding: 10px 0; ;
 	width: 80%;
-	background-color: rgba(30,30,30,.6);
-	border-radius: 20px;
+	background-color: rgba(130,130,130,1);
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
 	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+	color: rgba(20,20,20,1);
 	
 }
 
-#article_h1 {
-	color: rgba(255,100,100,1);
+#section_1 h3 {
+	position: ;
+	left: ;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 5em;
-	letter-spacing: .5em;
-	text-shadow: 3px 3px 3px #000;
-}
-
-#discovery {
-	position: relative;
-	top: 5%;
+	margin-top: 0px;
+	margin-left: 5%;
+	padding: 100px 0 10px 0; 
 	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: rgba(50,50,50,.6);
-	box-shadow: 3px 3px 3px #000;
-	border-radius: 10px;
-	color: rgba(255,100,100,1);
-}
-
-#discovery h3 {
-	padding: 5px 5px 5px 20px;
-	color: rgba(200,100,100,1);
-}
-
-#discovery p {
-	padding: 5px 5px 5px 50px;
-	color: rgba(200,200,200,1);
+	background-color: rgba(130,130,130,1);
+	border-bottom-right-radius: 30px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+	color: rgba(185,7,12,1);
+	text-shadow: 3px 3px 3px #000;
 }
 /* Top section elements end */
 
 
 /* Section one elements */
-#section_1 {
-	position: relative;
-	top: 20px;
+#section_2 {
+	position: ;
+	top: ;
 	height: 400px;
 	background-color: rgba(50,50,50,1);
 	background: #000 url(../images/backgrounds/camas_marina.jpg) no-repeat left 50%;
 	opacity: .6;
 }
+
+#section_1_h1 {
+	color: #fff;
+	font-size: ;
+	opacity: ;
+}
 /* Section one elements end */
 
 
 /* Section two elements */
-#section_2 {
-	position: relative;
-	top: 20px;
+#section_3 {
+	position: ;
+	top: ;
 	height: 600px;
 	background-color: rgba(250,250,250,.9);
 }
