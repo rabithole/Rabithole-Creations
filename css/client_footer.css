@@ -1,0 +1,73 @@
+footer {
+	position: relative;
+	top: ;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	height: auto;
+	padding: 0;
+}
+
+footer h2 {
+	color: #ccc;
+	text-align: center;
+}
+
+form {
+	margin-left: 25%;
+}
+
+input {
+	float: left;
+	clear: both;
+	margin-bottom: 30px;
+	width: 60%;
+	height: 2em;
+	background-color: rgba(200, 200, 200,1);
+	border: 3px solid rgba(0,0,100,1);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #000;
+}
+
+label {
+	float: left;
+	clear: both;
+	color: rgba(255,255,255,.6);
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+textarea {
+	float: left;
+	clear: both;
+	margin-bottom: 20px;
+	background-color: rgba(200, 200, 200,1);
+	border: 3px solid rgba(0,0,100,1);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #000;
+	width: 60%;
+}
+
+#button {
+	float: left;
+	clear: both;
+	margin-left: 10%;
+	margin-bottom: 20px;
+}
+
+#submit {
+	float: left;
+	width: 90px;
+	background-color: #ccc;
+	margin-right: 20px;
+}
+
+#reset {
+	float: left;
+	width: 90px;
+	background-color: #ccc;
+}
+
+.clearit {
+	display: inline-block;
+	clear: both;
+}
