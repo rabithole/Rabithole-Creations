@@ -10,7 +10,8 @@ $(document).ready(function() {
 		$("a").unbind("click");
 		$("ul").animate({
 			 	width: "230px",
-			 	fontSize: "1em"
+			 	fontSize: "1em",
+			 	left: "70%"
 			 });
 			$("li").animate({
 				marginTop: "5px"
