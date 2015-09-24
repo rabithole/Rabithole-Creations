@@ -71,7 +71,7 @@ $(document).ready(function() {
 				 	width: "230px",
 				 	fontSize: "1em",
 				 	left: "70%",
-				 	top: "300px"
+				 	top: "100px"
 				 });
 
 				$("li").animate({
