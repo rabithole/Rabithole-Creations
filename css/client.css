@@ -1,59 +1,180 @@
+@font-face {
+	font-family: 'arimo', sans-serif;
+}
+
 body {
 	margin: 0;
 	overflow-x: hidden;
+	background-color: #000;
+	font-family: 'arimo';
 }
 
+.clearit {
+	display: inline-block;
+	clear: both;
+}
+
+
+/* Header Elements */
 header {
 	position: fixed;
 	width: 100%; 
 	top: 0;
 	left: 0;
-	height: 120px;
-	background-color: rgba(145,7,12,1);
+	height: 110px;
+	background-color: rgba(145,7,12,.7);
 	z-index: 1000;
-/*	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
+	background: -webkit-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: -o-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
 	background: -moz-linear-gradient(to bottom, rgba(145, 7, 12, .1), rgba(145, 7, 12, 1));
-	background: linear-gradient(to bottom, rgba(145, 7, 12, .5) 5%, rgba(145, 7, 12, 1) 30%, rgba(200, 200, 200, .7) 60%, rgba(200, 200, 200, .8), rgba(136, 102, 21, 1) 99%);	
+	background: linear-gradient(to bottom, rgba(145, 7, 12, .5) 5%, rgba(145, 7, 12, 1) 30%, rgba(200, 200, 200, 1) 60%, rgba(200, 150, 150, 1), rgba(136, 102, 91, 1) 99%);	
 	border-bottom: 1px solid rgba(170,170,170,1);
-*/
+}
+
+#fill_div {
+	height: 110px;
 }
 
 #media_links {
-	position: absolute;
+	position: relative;
 	top: 12%;
 	left: 5%;
 }
 
 .media_links {
-	width: 10%;
+	width: 70px;
 	float: left;
 	margin-right: 5px;
 }
 
 #main_title {
-	position: relative;
+	position: ;
 	text-align: right;
 	float: right;
 	margin-right: 5%;
-	font-size: 3em;
-	top: 30px;
+	font-size: 4em;
+	margin-top: 50px;
 	color: rgba(255,255,255,.8);
 	text-shadow: 5px 5px 5px #000;
+	letter-spacing: .3em;
+}
+/* Header Elements end */
+
+
+/* Top section elements */
+#section_1 {
+	margin: ;
+	position: ;
+	top: ;
+	min-height: 500px;
+	background-color: rgba(250,250,250,.8);
+	overflow: hidden;
+}
+
+#sec_1_h1 {
+	position: ;
+	top: ;
+	font-size: 5em;
+	letter-spacing: .5em;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	padding: 10px 0; ;
+	width: 80%;
+	background-color: rgba(130,130,130,1);
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+	color: rgba(20,20,20,1);
+	
+}
+
+#the_process {
+	margin-top: 2px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	width: 50%;
+	min-height: ;
+	background-color: rgba(130,130,130,1);
+	border-bottom-right-radius: 30px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+#section_1 h3 {
+	margin: 0px;
+	font-size: 2.5em;
+	text-align: left;
+	padding: 20px 0px 10px 80px; 	
+	color: rgba(250,250,120,.9);
+	text-shadow: 3px 3px 3px #000;
+}
+
+#section_1 p {
+	margin: 0 40px;
+	text-indent: 30px;
+	color: rgba(190,190,190,1);
+}
+/* Top section elements end */
+
+
+/* Section one elements */
+#section_2 {
+	border-top: 5px solid rgba(250,250,120,.9);
+	border-bottom: 5px solid rgba(250,250,120,.9);
+	height: 400px;
+	background-color: rgba(50,50,50,1);
+	background: #000 url(../images/backgrounds/camas_marina.png) no-repeat left 50%;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+#section_2 h1 {
+	color: rgba(250,250,250,1);
+	text-shadow: 5px 5px 5px rgba(50,50,50,1);
+	font-size: 6em;
+	text-align: center;
+	letter-spacing: .1em;
+}
+
+#section_2 h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: .2em;
+}
+/* Section one elements end */
+
+
+/* Section two elements */
+#section_3 {
+	position: ;
+	top: ;
+	overflow: hidden;
+	height: auto;
+	background-color: rgba(250,250,250,.9);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+}
+
+#section_3 img {
+	margin: 0 0 10px 20%;
+}
+
+#section_3 h1 {
+	font-size: 6em;
+	text-align: center;	
+}
+
+#section_3 h3 {
+	
+	color: #000;
+	text-align: center;
+	font-size: 2em;
 	letter-spacing: .2em;
 }
 
-article {
-	height: 800px;
-	background-color: rgba(150,150,150,1);
-}
 
-#section_1 {
-	height: 300px;
-	background-color: rgba(50,50,50,1);
-}
-
-#section_2 {
-	height: 600px;
-	background-color: rgba(200,50,100,1);
-}
+/* Section two elements end */

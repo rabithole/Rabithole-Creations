@@ -37,7 +37,9 @@ $(document).ready(function() {
 			if(scroll > 100) {
 				$("ul").animate({
 				 	width: "50px",
-				 	fontSize: "0em"
+				 	fontSize: "0em",
+				 	left: "90%",
+				 	top: "10%"
 				 });
 
 				$("li").animate({
@@ -67,7 +69,9 @@ $(document).ready(function() {
 			if(scroll < 100) {
 				$("ul").animate({
 				 	width: "230px",
-				 	fontSize: "1em"
+				 	fontSize: "1em",
+				 	left: "70%",
+				 	top: "300px"
 				 });
 
 				$("li").animate({
@@ -87,7 +91,7 @@ $(document).ready(function() {
 
 				if(x > 751) {
 					$("#media_links").animate({
-						width: "40%"
+						width: "34%"
 					});				
 				}
 			} 		

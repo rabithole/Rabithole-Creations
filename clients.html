@@ -6,9 +6,13 @@
 <title>Clients</title>
 
 <script src="jQuery/jquery-1.11.3.min.js"></script>
-<script src="scripts/clientAnimation.js"></script>
+<script src="scripts/clientAnimation.js"></script> 
 
 <link rel="stylesheet" href="css/client.css">
+<link rel='stylesheet' href='css/client_nav.css'>
+<link rel="stylesheet" href="css/client_footer.css">
+
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -29,27 +33,95 @@
 	</div>
 </header>
 
+<article class="wrapper">
+	<div id="section_1_wrapper">
+		<div>
+			<nav  id="mobile_nav" class="hide">
+				<ul>
+					<a href="http://www.rabithole.com/"><li>Home</li></a>
+			        <a href="web_port.html"><li>Web Portfolio</li></a>
+			        <a href="photo.html"><li>Photography</li></a>
+			        <a href="employer.html"><li>Employers</li></a>
+			        <a href="#"><li>Clients</li></a>
+			    </ul>
+			</nav>
+			<div  id="clickNav" class="pad_hide">
+				<ul>
+			    	<li>Home</li>
+			        <li>Web Portfolio</li>
+			        <li>Photography</li>
+			        <li>Employers</li>
+			        <li>Clients</li>
+			    </ul>
+			</div>	
+		</div>
+	</div>
+</article>
 
-<article class="background_image">
-	<div>
-		
+<div id="fill_div"></div>
+
+<article id="section_1">
+	<h1 id="sec_1_h1">The Process</h1>
+	<div id="the_process">
+		<h3>Discovery</h3>
+		<p>During discovery we take a close look at your organization, discuss what you want to accomplish with your digital presence and begin to explore design options. It is important to understand your purpose, goals and target audience.</p>
+
+		<h3>Planning</h3>
+		<p>In this phase we begin to create a site map, aka outline of your web site and begin to organize the information we gathered during discovery.</p> 
+
+		<h3>Design</h3>
+		<P>Design is the time to develop the look and feel of your web site. We will decide on your color palette and incorporate identifying elements of your organization. We will create a few prototypes of your site for you to express your likes and dislikes about the designs.</P>
+
+		<h3>Build</h3>
+		<p>This is the phase where we begin to code your site page. There are a great many things to attend to during a site build. SEO, contact forms, image processing and domain setup are among the few.</p>
+
+		<h3>Testing and Launch</h3>
+		<p>When testing begins you will have a working site to play with. At this time we will make the functionality of the site works as expect. Once we are satisfied all in order, we will launch your site to its final domain for the world to see.</p> 
+
+		<h3>Maintenance</h3>
+		<p>Inevitably changes will need to be made. Pricing, wording, contact information etc will need to be updated as things change. At times events conspire that create problems for your sites operation, we are there to help if this occurs.</p>
 	</div>
 </article>
 
 
-<section id="section_1">
-	<div>
-		
-	</div>
-</section>
-
 <section id="section_2">
-	
+	<h1>Increase Your Google Ranking!</h1>
+	<h3>Quality SEO for the modern age!</h3>
 </section>
 
+<section id="section_3">
+	<h1>Responsive Web Sites</h1>
+	<h3>Sites that work on all devices!</h3>
+	<img src="images/graphic/screen.png">
+</section>
 
+<div class="clearit"></div>
 <footer>
-	
+	<article> 
+	    <div>        
+	        <h2>email: pedalinon@gmail.com <br> phone: 360-600-5862</h2>
+	        
+	        <form id="contact" method="post" action="contact_process.php">
+	        	<label>Name</label>
+	        	<input type="text" id="name" name="name" required>
+	            <label>Company</label>
+	            <input type="text" id="company" name="company">
+	            <label>Email</label>
+	            <input type="text" id="email" name="email">
+	            <label>Phone number</label>
+	            <input type="text" id="tel" name="tel">
+	            
+	            <label>Message</label>
+	            <textarea rows="7" name="comments"></textarea>
+	            
+	            <div id="button">
+		            <button id="submit" type="submit" value="submit">Send</button>
+		            <button id="reset" type="reset" value="reset">Reset</button>  
+		        </div>        
+	        </form>  
+	    </div>
+	</article>
+	<div class="clearit"></div>
 </footer>
 
 
