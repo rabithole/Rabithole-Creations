@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$("#the_process").slideToggle("slow");
 		setTimeout(function() {
 			$("#hide_slide").toggleClass("hide_sl");
-		}, 1020);
+		}, 800);
 	});
 
 
