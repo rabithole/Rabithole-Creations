@@ -17,9 +17,13 @@ $(document).ready(function() {
 			});	
 	});
 
-	$("#sec_1_h1").click(function() {
+	$("#slide_arrow").click(function() {
 		$("#the_process").slideToggle("slow");
+		setTimeout(function() {
+			$("#hide_slide").toggleClass("hide_sl");
+		}, 1020);
 	});
+
 
 	// Top of page animations for everything but mobile. 
 	var x = screen.width;
