@@ -17,6 +17,7 @@ body {
 
 /* Header Elements */
 header {
+	z-index: 10000;
 	position: fixed;
 	width: 100%; 
 	top: 0;
@@ -114,7 +115,7 @@ header {
 
 #the_process {
 	position: relative;
-	z-index: 1000;
+	z-index: 500;
 	margin-top: 2px;
 	margin-left: 5%;
 	margin-bottom: 20px;
