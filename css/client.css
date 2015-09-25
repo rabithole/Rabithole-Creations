@@ -63,24 +63,29 @@ header {
 
 
 /* Top section elements */
-#slide_arrow {
+#arrow_box {
+	z-index: 2000;
 	position: absolute;
 	left: 10%;
-	margin-top: -50px;
+	margin-top: 60px;
+	background-color: rgba(145, 7, 12, 1);
+	padding: ;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
 }
 
 #hide_slide {
-	float: left;
+	float: ;
 	position: relative;
 	z-index: 100;
 	margin-top: 2px;
 	margin-left: 5%;
-	margin-bottom: 20px;
-	padding-bottom: 10px;
+	margin-bottom: ;
+	padding-bottom: ;
 	width: 50%;
-	min-height: 100px;
+	min-height: ;
 	background-color: rgba(130,130,130,1);
-	border-bottom-right-radius: 30px;
+	border-bottom-right-radius: 100px;
 	box-shadow: 5px 5px 5px rgba(0,0,0,1);
 }
 
@@ -98,7 +103,7 @@ header {
 	top: ;
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 	font-size: 5em;
-	letter-spacing: .5em;
+	letter-spacing: .2em;
 	text-align: center;
 	margin-bottom: 0px;
 	margin-left: 5%;
@@ -113,10 +118,18 @@ header {
 	
 }
 
+#sec_1_pr {
+	font-size: 3em;
+	text-align: center;
+	padding-top: 30px;
+	margin: 0;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);	
+}
+
 #the_process {
 	position: relative;
-	z-index: 500;
-	margin-top: 2px;
+	z-index: ;
+	margin-top: 8px;
 	margin-left: 5%;
 	margin-bottom: 20px;
 	padding-bottom: 10px;
@@ -124,6 +137,7 @@ header {
 	min-height: ;
 	background-color: rgba(130,130,130,1);
 	border-bottom-right-radius: 30px;
+	border-top-right-radius: 100px;
 	box-shadow: 5px 5px 5px rgba(0,0,0,1);
 }
 
@@ -205,7 +219,8 @@ header {
 
 article #slide_p {
 	position: absolute;
-	margin-top: -70px;
+	z-index: 1000;
+	margin-top: 40px;
 	left: 130px;
 	color: #000;
 	font-weight: bold;

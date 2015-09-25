@@ -19,9 +19,6 @@ $(document).ready(function() {
 
 	$("#slide_arrow").click(function() {
 		$("#the_process").slideToggle("slow");
-		setTimeout(function() {
-			$("#hide_slide").toggleClass("hide_sl");
-		}, 800);
 	});
 
 
