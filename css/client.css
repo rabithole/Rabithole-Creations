@@ -74,6 +74,10 @@ header {
 	border-bottom-left-radius: 50%;
 }
 
+#arrow_box:hover {
+	background-color: rgba(200,200,50,1);
+}
+
 #hide_slide {
 	float: ;
 	position: relative;
@@ -222,7 +226,7 @@ article #slide_p {
 	z-index: 1000;
 	margin-top: 40px;
 	left: 130px;
-	color: #000;
+	color: rgba(100,250,100,1);
 	font-weight: bold;
 }
 /* Section two elements end */

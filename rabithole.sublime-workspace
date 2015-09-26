@@ -4,34 +4,6 @@
 		"selected_items":
 		[
 			[
-				"togg",
-				"toggleClass"
-			],
-			[
-				"hide",
-				"hide_slide"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"an",
-				"animate"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"d",
-				"display"
-			],
-			[
 				"mo",
 				"mobile_nav"
 			],
@@ -66,6 +38,10 @@
 			[
 				"back",
 				"background-position"
+			],
+			[
+				"mar",
+				"margin-left"
 			],
 			[
 				"list",
@@ -148,77 +124,26 @@
 	"buffers":
 	[
 		{
-			"file": "scripts/clientAnimation.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2296,
+				"buffer_size": 6153,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/lap_top.css",
+			"file": "photo.html",
 			"settings":
 			{
-				"buffer_size": 3836,
+				"buffer_size": 9770,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/Web-Projects/Oowee/ooweegooey.css",
+			"file": "clients.html",
 			"settings":
 			{
-				"buffer_size": 9176,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/scrolling.js",
-			"settings":
-			{
-				"buffer_size": 1780,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/client.css",
-			"settings":
-			{
-				"buffer_size": 4368,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/client_nav.css",
-			"settings":
-			{
-				"buffer_size": 1815,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "/* Main Navigation */\n#mobile_nav ul {\n	position: fixed;\n	top: 100px;\n	left: 70%;\n	width: 230px;\n	z-index: 1000;	\n}\n\n@media(orientation: landscape) {\n	\n}\n\n#mobile_nav li {\n	text-align: center;	color: rgba(0, 0, 0, 1);\n	color: rgba(235,235,200,1);\n	margin-top: 5px;\n	padding: 5px 1px 5px 1px;\n	background-color: rgba(0, 0, 0, 1);\n	border-radius: 5px;\n	list-style-type: none;\n 	background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);\n	background: -o-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);\n	background: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%); \n	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(213, 166, 54, 1) 30%, rgba(136, 102, 21, 1) 70%, rgba(91, 74, 54, 1) 99%);\n}\n\n#mobile_nav a[href=\"#\"] li {\n	background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(190, 90, 4, 1) 30%, rgba(136, 52, 51, 1) 70%, rgba(91, 74, 4, 1) 99%);\n	background: -o-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(190, 90, 4, 1) 30%, rgba(136, 52, 51, 1) 70%, rgba(91, 74, 4, 1) 99%);\n	background: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(190, 90, 4, 1) 30%, rgba(136, 52, 51, 1) 70%, rgba(91, 74, 4, 1) 99%); \n	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(190, 90, 4, 1) 30%, rgba(136, 52, 51, 1) 70%, rgba(91, 74, 4, 1) 99%);\n}\n\n#mobile_nav a {\n	font-size: 1.5em;\n	color: rgba(235,235,200,1); \n	text-decoration: none;\n}\n\n.pad_hide {\n	display: none;\n}\n\n#mobile_nav li:hover {\n	color: rgba(100,250,100,1);\n	width: 110%;\n}\n/* MAIN NAVIGATION */",
-			"file": "css/lap_top_nav.css",
-			"file_size": 1863,
-			"file_write_time": 130876912842935020,
-			"settings":
-			{
-				"buffer_size": 1816,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/client_footer.css",
-			"settings":
-			{
-				"buffer_size": 1020,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/navAnimation.js",
-			"settings":
-			{
-				"buffer_size": 1821,
+				"buffer_size": 5462,
 				"line_ending": "Windows"
 			}
 		}
@@ -255,30 +180,37 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css"
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE"
 	],
 	"file_history":
 	[
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit_2.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/footer.css",
-		"/E/Web-Projects/Oowee/index.html",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/lap_top_nav.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/pad_nav.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/mobile_nav.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/landscape_mobile.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/lap_top.css",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/scripts/reveal_2.js",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/index.1.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/newRabithole/index.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/newRabithole/scripts/scripts.js",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/oldRabithole/index.html",
+		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/oldRabithole/scripts/scripts.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/employer.html",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/web_port.html",
+		"/C/Users/Robert Kulp/Desktop/bootstrap/bootstrap-sass-3.3.5.tar.gz",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/photo.html",
 		"/C/Users/Robert Kulp/Desktop/web_projects/slice_pizza/notes/notes.txt",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/portrait_pad.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/pad.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/lap_top_nav.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/scrolling.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/nav.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/pad_nav.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/lap_top.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/mobile.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/animated.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/html_templates/mobile_nav_template.html",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/mobile_nav_animation.js",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/mobile_nav.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/mobileNavExpander.js",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/employer.html",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/landscape_mobile.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/rabit_2.css",
+		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/footer.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/responsive.js",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/mobile_copy.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/scripts/landing_slide.js",
@@ -287,8 +219,6 @@
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/employer_custom.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/custom_web.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/css/custom_photo.css",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/web_port.html",
-		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/photo.html",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/bootstrap/css/bootstrap.css",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/bootstrap/css/bootstrap.css.map",
 		"/C/Users/Robert Kulp/xampp/htdocs/RABITHOLE/index.html",
@@ -321,7 +251,6 @@
 		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/css/index_1.css",
 		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/scripts/ajax_script.js",
 		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/css/slideshow.css",
-		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/index.1.html",
 		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/css/rabit.css",
 		"/C/Users/Robert Kulp/Desktop/web_projects/Rabithole/RABITHOLE/index.html",
 		"/C/xampp/htdocs/images/images.sql",
@@ -382,12 +311,7 @@
 		"/C/Users/Robert Kulp/Desktop/web_projects/test/personalController.js",
 		"/C/xampp/htdocs/angular_mentors/department-combo.html",
 		"/C/xampp/htdocs/angular_mentors/combo.css",
-		"/C/xampp/htdocs/angular_mentors/filteredMentorBlocksModule.js",
-		"/C/xampp/htdocs/angular_mentors/departmentTableModule.js",
-		"/C/xampp/htdocs/angular_mentors/jquery-ui/index.html",
-		"/C/xampp/htdocs/angular_mentors/jquery-ui.custom/jquery-ui-1.11.4.custom/index.html",
-		"/C/xampp/htdocs/angular_mentors/original.html",
-		"/C/Users/Robert Kulp/Documents/SCHOOL/Spring 2015/JavaScript/Lab 8/Lab 8 Walkthrough Tutorial, Part I.html/Lesson 8/Lab 8 Walkthrough Tutorial, Part I.html"
+		"/C/xampp/htdocs/angular_mentors/filteredMentorBlocksModule.js"
 	],
 	"find":
 	{
@@ -395,9 +319,16 @@
 	},
 	"find_in_files":
 	{
-		"height": 927.0,
+		"height": 480.0,
 		"where_history":
 		[
+			"",
+			"<C/Users/Robert Kulp/xampp/htdocs/RABITHOLE>",
+			"<c/users/RobertKulp/xampp/htdocs/RABITHOLE>",
+			"<c/Users/Robert Kulp/xampp/htdocs/RABITHOLE>",
+			"<Desktop/Robert Kulp/xampp/htdocs/RABITHOLE>",
+			"</Robert Kulp/xampp/htdocs/RABITHOLE>",
+			"</htdocs/RABITHOLE>",
 			"<open files>,<open files>",
 			"<open files>",
 			"",
@@ -411,7 +342,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"section_1",
+			"ients.html\"><li>Clients</li></a>",
+			"<a href=\"#\"><li>Clients</li></a>",
 			"clicknav",
 			"contact",
 			"form",
@@ -520,6 +452,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"<a href=\"clients.html\"><li>Clients</li></a>",
 			"<script>\n	window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script>",
 			"<!-- <script>\n	window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script>",
 			"<!-- <script>\n	window.onload = alert(\"This site is under construction. Components of this site are not yet functioning.\");\n</script>\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-52448677-1', 'auto');\n  ga('send', 'pageview');\n</script> -->",
@@ -538,6 +471,12 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Robert Kulp\\xampp\\htdocs\\RABITHOLE"
+		}
+	],
 	"groups":
 	[
 		{
@@ -546,270 +485,98 @@
 			[
 				{
 					"buffer": 0,
-					"file": "scripts/clientAnimation.js",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2296,
+						"buffer_size": 6153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								445,
-								445
+								2382,
+								2382
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 85.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/lap_top.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1267,
-								1267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1550.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/E/Web-Projects/Oowee/ooweegooey.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9176,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "scripts/scrolling.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 255.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/client.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4368,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4285,
-								4258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3425.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/client_nav.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1815,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1777,
-								1750
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/lap_top_nav.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1668,
-								1668
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "css/client_footer.css",
+					"buffer": 1,
+					"file": "photo.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1020,
+						"buffer_size": 9770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								926,
-								926
+								836,
+								836
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "clients.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2050,
+								2050
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 697.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "scripts/navAnimation.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								306,
-								306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -817,7 +584,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -843,7 +610,7 @@
 		"cols":
 		[
 			0.0,
-			0.283773812324,
+			0.522916666667,
 			1.0
 		],
 		"rows":
@@ -858,10 +625,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "Rabithole Redesign.sublime-project",
+	"project": "",
 	"replace":
 	{
-		"height": 52.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -895,7 +662,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -903,7 +670,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 343.0,
+	"side_bar_width": 448.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
