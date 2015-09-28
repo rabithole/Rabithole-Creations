@@ -20,116 +20,145 @@ $(document).ready(function() {
 	$("#slide_arrow").click(function() {
 		$("#the_process").slideToggle("slow");
 	});
-
+});
 
 	// Top of page animations for everything but mobile. 
+	
+var scrollEvent = 0;
+
+$(window).scroll(function() {
 	var x = screen.width;
-		if(x < 750) {
-			return;
-		}
+	if(x < 750) {
+		return;
+	}
 
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-		console.log(scroll);
+	var scroll = $(window).scrollTop();
+	console.log("This is the scroll number " + scroll);
 
-		if(this.timeoutId) {
-			window.clearTimeout(this.timeoutId);
-		}
-		this.timeoutId = window.setTimeout(function() {
-			if(scroll > 201) {
-				$("header").css({
-					"height": "40px",
-					"fontSize": "1em"
-				});
 
-				$("#main_title").css({
-					"fontSize": "1.7em",
-					"marginTop": "0px"
-				});
 
-				$(".media_links").css(
-					"width", "30px"
-				);
+	if(scroll < 5) {
+		scrollEvent = 0;
+	}
+	if(scroll > 50) {
+		scrollEvent = scrollEvent + 1;
+	}
 
-				$("ul").css({
-					"width": "50px",
-					"fontSize": "0em", 
-					"left": "90%", 
-					"top": "5%"
-				});
+		console.log("This is the scrollEvent state " + scrollEvent);
 
-				$("li").css(
-					"marginTop", "0px"
-				);
+	if(scrollEvent == 0) {
+		animateEnlarge();
+		return;
+	}
+	if(scrollEvent == 1) {
+		animateReduce();
+		return;
+	}
 
-				$("a").click(function(event) {
-				event.preventDefault();
-				});
+	console.log("This is the scrollEvent state " + scrollEvent);
 
-				$(".media").unbind('click');
-			}
+/*		if(this.timeoutId) {
+		window.clearTimeout(this.timeoutId);
+	}
+	this.timeoutId = window.setTimeout(function() { */ 
+/*		if(scroll > 201) { 
 
-			if(scroll > 10 && scroll < 200){
-				$("header").animate({
-					height: "40px",
-					fontSize: "1em"
-				}, 1000);
 
-				$("#main_title").animate({
-					fontSize: "1.7em",
-					marginTop: "0px"
-				}, 1000);
-
-				$(".media_links").animate({
-					width: "30px"
-				}, 1000);
-
-				$("ul").animate({
-					width: "50px",
-					fontSize: "0em", 
-					left: "90%", 
-					top: "5%"
-				});
-
-				$("li").animate({
-					marginTop: "0px"
-				});
-
-				$("a").click(function(event) {
-				event.preventDefault();
-				});
-
-				$(".media").unbind('click');
-			}
-
-			if(scroll < 100) {
-				$("header").animate({
-					height: "110px",
-					fontSize: "1em"
-				});
-
-				$("#main_title").animate({
-					fontSize: "4em",
-					marginTop: "50px"
-				});
-
-				$(".media_links").animate({
-					width: "70px"
-				});
-
-				$("ul").animate({
-				 	width: "230px",
-				 	fontSize: "1em", 
-				 	left: "70%",
-				 	top: "300px"
-				 });
-
-				$("li").animate({
-					marginTop: "5px"
-				});
-
-				$("a").unbind('click');
-			}
+		$("header").css({
+			"height": "40px",
+			"fontSize": "1em"
 		});
-	});
+
+		$("#main_title").css({
+			"fontSize": "1.7em",
+			"marginTop": "0px"
+		});
+
+		$(".media_links").css(
+			"width", "30px"
+		);
+
+		$("ul").css({
+			"width": "50px",
+			"fontSize": "0em", 
+			"left": "90%", 
+			"top": "5%"
+		});
+
+		$("li").css(
+			"marginTop", "0px"
+		);
+
+		$("a").click(function(event) {
+		event.preventDefault();
+		});
+
+		$(".media").unbind('click');
+
+		} */
+
+//		if(scroll > 10 && scroll < 200){
+	
+		// This section begins the reduction animation.
+	function animateEnlarge() {
+		$("header").animate({
+			height: "110px",
+			fontSize: "1em"
+		}, 1000);
+
+		$("#main_title").animate({
+			fontSize: "4em",
+			marginTop: "50px"
+		}, 1000);
+
+		$(".media_links").animate({
+			width: "70px"
+		}, 1000);
+
+		$("ul").animate({
+		 	width: "230px",
+		 	fontSize: "1em", 
+		 	left: "70%",
+		 	top: "300px"
+		 }, 1000);
+
+		$("li").animate({
+			marginTop: "5px"
+		}, 1000);
+
+		$("a").unbind('click');
+	}
+
+	function animateReduce() {	
+		$("header").animate({
+			height: "40px",
+			fontSize: "1em"
+		}, 1000);
+
+		$("#main_title").animate({
+			fontSize: "1.7em",
+			marginTop: "0px"
+		}, 1000);
+
+		$(".media_links").animate({
+			width: "30px"
+		}, 1000);
+
+		$("ul").animate({
+			width: "50px",
+			fontSize: "0em", 
+			left: "90%", 
+			top: "5%"
+		});
+
+		$("li").animate({
+			marginTop: "0px"
+		});
+
+		$("a").click(function(event) {
+		event.preventDefault();
+		});
+
+		$(".media").unbind('click');
+	}	
 });
