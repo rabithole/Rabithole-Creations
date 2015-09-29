@@ -19,6 +19,7 @@ $(document).ready(function() {
 
 	$("#slide_arrow").click(function() {
 		$("#the_process").slideToggle("slow");
+		//$("#the_process").css("position" : "absolute", "zIndex": "1500");
 	});
 });
 
