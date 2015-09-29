@@ -59,48 +59,6 @@ $(window).scroll(function() {
 	}
 
 	console.log("This is the scrollEvent state " + scrollEvent);
-
-/*		if(this.timeoutId) {
-		window.clearTimeout(this.timeoutId);
-	}
-	this.timeoutId = window.setTimeout(function() { */ 
-/*		if(scroll > 201) { 
-
-
-		$("header").css({
-			"height": "40px",
-			"fontSize": "1em"
-		});
-
-		$("#main_title").css({
-			"fontSize": "1.7em",
-			"marginTop": "0px"
-		});
-
-		$(".media_links").css(
-			"width", "30px"
-		);
-
-		$("ul").css({
-			"width": "50px",
-			"fontSize": "0em", 
-			"left": "90%", 
-			"top": "5%"
-		});
-
-		$("li").css(
-			"marginTop", "0px"
-		);
-
-		$("a").click(function(event) {
-		event.preventDefault();
-		});
-
-		$(".media").unbind('click');
-
-		} */
-
-//		if(scroll > 10 && scroll < 200){
 	
 		// This section begins the reduction animation.
 	function animateEnlarge() {
