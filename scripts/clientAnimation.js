@@ -36,23 +36,25 @@ $(window).scroll(function() {
 	console.log("This is the scroll number " + scroll);
 
 
-
 	if(scroll < 5) {
 		scrollEvent = 0;
 	}
-	if(scroll > 50) {
-		scrollEvent = scrollEvent + 1;
+	if(scrollEvent > 1) {
+		return;
 	}
-
-		console.log("This is the scrollEvent state " + scrollEvent);
+	if(scroll > 5) {
+		scrollEvent += 1;
+	}
 
 	if(scrollEvent == 0) {
 		animateEnlarge();
-		return;
+		
 	}
 	if(scrollEvent == 1) {
+		if(scrollEvent > 1) {
+			return;
+		}
 		animateReduce();
-		return;
 	}
 
 	console.log("This is the scrollEvent state " + scrollEvent);
